@@ -1,0 +1,37 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #f08804;
+  --primary-1: #febd69;
+  --primary-1-hover: #f3a847;
+  --text-dark: #0f1111;
+  --dark: #131921;
+  --dark-1: #232f3e;
+  --light: #ffffff;
+}
+
+@font-face {
+  font-family: "AmazonEmber";
+  src: url("./assets/fonts/AmazonEmber_Rg.ttf") format("ttf");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "AmazonEmber";
+  src: url("./assets/fonts/Amazon-Ember-Medium.ttf");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "AmazonEmber";
+  src: url(./assets/fonts/AmazonEmber_Bd.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "AmazonEmber";
+  src: url(./assets/fonts/AmazonEmber_He.ttf);
+  font-weight: 900;
+}
