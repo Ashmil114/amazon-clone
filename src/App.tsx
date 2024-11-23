@@ -4,6 +4,7 @@ export default function App() {
   return (
     <>
       <Navbar />
+      <div className="h-[1000px]">hi</div>
     </>
   );
 }

@@ -9,7 +9,7 @@ export default {
       colors:{
         primary: {
           DEFAULT: "#f08804",
-          1: "#f3a847",
+          1: "#febd69",
           hover: "#f3a847",
         },
         dark:{
