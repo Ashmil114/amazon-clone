@@ -14,13 +14,27 @@
 
 @font-face {
   font-family: "AmazonEmber";
-  src: url("./assets/fonts/AmazonEmber_Rg.ttf") format("ttf");
+  src: url(./assets/fonts/AmazonEmber_Th.ttf) format("ttf");
+  font-weight: 100;
+  
+}
+
+@font-face {
+  font-family: "AmazonEmber";
+  src: url(./assets/fonts/AmazonEmber_Lt.ttf) format("ttf");
+  font-weight: 300;
+}
+
+
+@font-face {
+  font-family: "AmazonEmber";
+  src: url(./assets/fonts/AmazonEmber_Rg.ttf) format("ttf");
   font-weight: normal;
 }
 
 @font-face {
   font-family: "AmazonEmber";
-  src: url("./assets/fonts/Amazon-Ember-Medium.ttf");
+  src: url(./assets/fonts/Amazon-Ember-Medium.ttf);
   font-weight: 500;
 }
 

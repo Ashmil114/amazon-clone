@@ -1,0 +1,38 @@
+:root {
+  --spritesheet: url("../../assets/images/spritesheet.png");
+}
+
+.logo {
+  background-image: var(--spritesheet);
+  background-position-x: -9px;
+  background-position-y: -125px;
+  background-repeat: repeat-x;
+  height: 34px;
+  width: 98px;
+}
+.logo-in {
+  font-family: "AmazonEmber";
+  font-weight: 300;
+}
+.location-icon {
+  background-image: var(--spritesheet);
+  background-position-x: -71px;
+  background-position-y: -378px;
+  background-repeat: repeat-x;
+  height: 18px;
+  width: 15px;
+  margin-top: 8px;
+}
+.delivery-pin {
+  font-family: "AmazonEmber";
+  font-weight: 300;
+}
+
+.nav-search-icon {
+  background-image: var(--spritesheet);
+  background-position-x: 2px;
+  background-position-y: -280px;
+  background-repeat: repeat-x;
+  height: 40px;
+  width: 45px;
+}
