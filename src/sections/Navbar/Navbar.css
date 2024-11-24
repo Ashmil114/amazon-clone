@@ -43,6 +43,7 @@
   background-position-y: -166px;
   height: 18px;
   width: 24px;
+  transform: scale(0.9);
 }
 
 .nav-cart-icon {
