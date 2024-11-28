@@ -6,7 +6,7 @@ export default function App() {
     <>
       <Navbar />
       <Home />
-      <div className="h-[1000px]">hi</div>
+      <div className="h-[200px] "></div>
     </>
   );
 }
