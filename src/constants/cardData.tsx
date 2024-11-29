@@ -151,3 +151,98 @@ export const data: dataType[] = [
     footer: "Shop home products",
   },
 ];
+
+export const data2: dataType[] = [
+  {
+    type: "multiple",
+    title: "Most-loved travel essentials",
+    images: [
+      {
+        title: "Backpacks",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Aug/Backpack_1x._SY116_CB566100767_.jpg",
+      },
+      {
+        title: "Suitcases",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Aug/TravelBag_1x._SY116_CB566100767_.jpg",
+      },
+      {
+        title: "Accessories",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Aug/Accessories_1x._SY116_CB566100767_.jpg",
+      },
+      {
+        title: "Handbags",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Aug/Handbags_1x._SY116_CB566100767_.jpg",
+      },
+    ],
+    footer: "Discover more",
+  },
+  {
+    type: "multiple",
+    title: "Gaming merchandise",
+    images: [
+      {
+        title: "Apparel",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Apparel_1x._SY116_CB667159060_.jpg",
+      },
+      {
+        title: "Hats",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Hat_1x._SY116_CB667159060_.jpg",
+      },
+      {
+        title: "Action figures",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Figure_1x._SY116_CB667159060_.jpg",
+      },
+      {
+        title: "Mugs",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_Quad_Mug_1x._SY116_CB667159063_.jpg",
+      },
+    ],
+    footer: "See more",
+  },
+  {
+    type: "multiple",
+    title: "Fantastic Finds for Home",
+    images: [
+      {
+        title: "Kitchen",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_1x_Kitchen._SY116_CB558654384_.jpg",
+      },
+      {
+        title: "Home Decor",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_1x_Home_decor._SY116_CB558654384_.jpg",
+      },
+      {
+        title: "Dining",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_1x_Dining._SY116_CB558654384_.jpg",
+      },
+      {
+        title: "Smart Home",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/DskBTFQuadCards/Fuji_BTF_Quad_Cards_1x_Smart_home._SY116_CB558654384_.jpg",
+      },
+    ],
+    footer: "See more",
+  },
+  {
+    type: "multiple",
+    title: "Upgrade on Tech",
+    images: [
+      {
+        title: "PC",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/us-manual-merchandising/RBS-in-house-Graphics/PC_186x116._SY116_CB561026793_.jpg",
+      },
+      {
+        title: "Wireless",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/us-manual-merchandising/RBS-in-house-Graphics/Wireless_186x116._SY116_CB561026793_.jpg",
+      },
+      {
+        title: "Software",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2024/img/Consumer_Electronics/XCM_CUTTLE_1708672_3706051_186x116_1X_en_US._SY116_CB561559219_.jpg",
+      },
+      {
+        title: "Home entertainment",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/us-manual-merchandising/RBS-in-house-Graphics/HomeEntertainment_186x116._SY116_CB561026793_.jpg",
+      },
+    ],
+    footer: "Shop all tech  deals",
+  },
+];

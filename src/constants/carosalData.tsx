@@ -1,0 +1,60 @@
+import { CarosalType } from "../components/Home/CarosalItemCard";
+
+export const CarosalData: CarosalType[] = [
+  {
+    title: "Here come Holiday Specials",
+    subtitle: "Explore now",
+    image: [
+      "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Holiday_Shovler/Fuji_HolidayGG_Shoveler_Holiday_deals_1X_EN._CB541659723_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Holiday_Shovler/Fuji_HolidayGG_Shoveler_Most_loved_deals_1X_EN._CB541659723_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Holiday_Shovler/Fuji_HolidayGG_Shoveler_Deals_under_50_1X_EN._CB541659723_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Holiday_Shovler/Fuji_HolidayGG_Shoveler_Deals_on_Computer_1X_EN._CB541659723_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Holiday_Shovler/Fuji_HolidayGG_Shoveler_Deals_on_Fashion_1X_EN._CB541659723_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Holiday_Shovler/Fuji_HolidayGG_Shoveler_Deals_on_Toys__Games_1X_EN._CB541659723_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Holiday_Shovler/Fuji_HolidayGG_Shoveler_Gift_guides_1X_EN._CB541659723_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Holiday_Shovler/Fuji_HolidayGG_Shoveler_Holiday_Fashion__1X_EN._CB541659723_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Holiday_Shovler/Fuji_HolidayGG_Shoveler_Holiday_Home_Decor_1X_EN._CB541659723_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Holiday_Shovler/Fuji_HolidayGG_Shoveler_Electronics_Gift_Guide_1X_EN._CB541659723_.jpg",
+      "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/Holiday_Shovler/Fuji_HolidayGG_Shoveler_Holiday_Toys_List_1X_EN._CB541659723_.jpg",
+    ],
+  },
+];
+
+export const CarosalData2: CarosalType[] = [
+  {
+    title: "New international customers purchased",
+    subtitle: "",
+    image: [
+      "https://m.media-amazon.com/images/I/61nHUVwR65L._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61u0Nv-aFdL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/515mpWFDqpL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/618JQO31dTL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/81dyDzYVacS._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61zwP1xM9aL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/718K-c0A7eL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/71Ky2jFoPEL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/71oCtwijE2L._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/71cwPMSk6ZL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61yhtKVPFGL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/71X27N2NBpL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/81q+61jTdFL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61FworBrvlL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61W7UV4z+SL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/710H3Aeo0iL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/81n-ap+0lPL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/71eL6cpT+pL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/71zvPJqU7FL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/21o8on38lRL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61QeFfa1tBL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/71Kz8HU27ML._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/71t5zvbtCoL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61I3uveR-5L._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61qKu6T1D6L._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/71LgEOkGCsL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/71EAKTri6IL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/713lDYWESmL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/71EkRSfQCgL._AC_SY200_.jpg",
+      "https://m.media-amazon.com/images/I/61OyiBG3eWL._AC_SY200_.jpg",
+    ],
+  },
+];
