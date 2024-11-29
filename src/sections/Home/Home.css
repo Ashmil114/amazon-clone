@@ -18,3 +18,8 @@
   z-index: 1;
   background-image: linear-gradient(-180deg, transparent, #e3e6e6);
 }
+
+.signbtn {
+  background-image: url(https://m.media-amazon.com/images/S/sash/vfqcwUkuArEiwD2.png);
+  background-position: -10px -170px;
+}

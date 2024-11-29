@@ -246,3 +246,142 @@ export const data2: dataType[] = [
     footer: "Shop all tech  deals",
   },
 ];
+
+export const data3: dataType[] = [
+  {
+    type: "multiple",
+    title: "Upgrade on Tech",
+    images: [
+      {
+        title: "PC",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/us-manual-merchandising/RBS-in-house-Graphics/PC_186x116._SY116_CB561026793_.jpg",
+      },
+      {
+        title: "Wireless",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/us-manual-merchandising/RBS-in-house-Graphics/Wireless_186x116._SY116_CB561026793_.jpg",
+      },
+      {
+        title: "Software",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/US-hq/2024/img/Consumer_Electronics/XCM_CUTTLE_1708672_3706051_186x116_1X_en_US._SY116_CB561559219_.jpg",
+      },
+      {
+        title: "Home entertainment",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/us-manual-merchandising/RBS-in-house-Graphics/HomeEntertainment_186x116._SY116_CB561026793_.jpg",
+      },
+    ],
+    footer: "Shop all tech deals",
+  },
+  {
+    type: "single",
+    title: "Gaming Corner",
+    url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAUOct2024/Gaming_zone_1x._SY304_CB540253513_.jpg",
+    footer: "For all your gaming needs",
+  },
+  {
+    type: "multiple",
+    title: "Home & Kitchen essentials",
+    images: [
+      {
+        title: "Coffee Machines",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAUOct2024/Coffee_Machine._SY116_CB545166645_.jpg",
+      },
+      {
+        title: "Multi-Cookers",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAUOct2024/Multi-Cooker_1x._SY116_CB545166645_.jpg",
+      },
+      {
+        title: "Vaccum Cleaner",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAUOct2024/VaccumCleaner_1x._SY116_CB545166645_.jpg",
+      },
+      {
+        title: "Iron and Steamer",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAUOct2024/Iron_1x._SY116_CB545166645_.jpg",
+      },
+    ],
+    footer: "Shop now",
+  },
+  {
+    type: "multiple",
+    title: "Toys for all ages",
+    images: [
+      {
+        title: "Rider on's",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAUOct2024/RideOn._SY116_CB545223412_.jpg",
+      },
+      {
+        title: "Building & construction",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAUOct2024/BuildingConstruction._SY116_CB545223412_.jpg",
+      },
+      {
+        title: "Dolls & Doll Houses",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAUOct2024/DollDoll_House._SY116_CB545223412_.jpg",
+      },
+      {
+        title: "Swimming pools",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAUOct2024/SwimmingPool._SY116_CB545223412_.jpg",
+      },
+    ],
+    footer: "See all",
+  },
+];
+
+export const data4: dataType[] = [
+  {
+    type: "multiple",
+    title: "Vacation getaway",
+    images: [
+      {
+        title: "Handbags",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Bag_1X._SY116_CB563194051_.jpg",
+      },
+      {
+        title: "Swimwear",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Swim_1X._SY116_CB563194051_.jpg",
+      },
+      {
+        title: "Skincare",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Beauty_1X._SY116_CB563194051_.jpg",
+      },
+      {
+        title: "Sandals",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Shoes_1X._SY116_CB563194051_.jpg",
+      },
+    ],
+    footer: "Shop More",
+  },
+  {
+    type: "multiple",
+    title: "Discover these beauty products for you",
+    images: [
+      {
+        title: "Skincare",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Skincare_1x._SY116_CB563150139_.jpg",
+      },
+      {
+        title: "Makeup",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Makeup_1x._SY116_CB563150139_.jpg",
+      },
+      {
+        title: "Nails",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Nail_1x._SY116_CB563150139_.jpg",
+      },
+      {
+        title: "Fragrances",
+        url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAU2024Sept/Fragrance_1x._SY116_CB563150139_.jpg",
+      },
+    ],
+    footer: "Explore all in Beauty",
+  },
+  {
+    type: "single",
+    title: "Transformers toys & more",
+    url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2024/BAUOct2024/TransformersCat_1x._SY304_CB540253513_.jpg",
+    footer: "Shop now",
+  },
+  {
+    type: "single",
+    title: "Personal Care under $25",
+    url: "https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v10._SY304_CB573698005_.jpg",
+    footer: "See more",
+  },
+];
