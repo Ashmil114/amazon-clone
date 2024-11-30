@@ -1,3 +1,4 @@
+import Footer from "./sections/Footer/Footer";
 import Home from "./sections/Home/Home";
 import Navbar from "./sections/Navbar/Navbar";
 
@@ -6,7 +7,7 @@ export default function App() {
     <>
       <Navbar />
       <Home />
-      <div className="h-[200px] "></div>
+      <Footer />
     </>
   );
 }

@@ -1,0 +1,48 @@
+.footer-amazon-icon {
+  background-image: url(https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB541706272_.png);
+  background-position: -10px -90px;
+  width: 76px;
+  height: 23px;
+  margin: 0 auto;
+}
+.lang-icon {
+  background: url(https://m.media-amazon.com/images/S/sash/Z8YwjOjqIHxqujG.png);
+  display: inline-block;
+  background-position: -77px -24px;
+  width: 15px;
+  height: 15px;
+  top: 2px;
+  left: 0;
+  position: relative;
+}
+.lang-arrow-icon {
+  background: url(https://m.media-amazon.com/images/S/sash/Z8YwjOjqIHxqujG.png);
+  width: 12px;
+  height: 12px;
+  background-position: -77px -80px;
+  position: relative;
+  left: 12px;
+  white-space: normal;
+  padding: 0 0.6em;
+  display: inline-block;
+}
+.flag-icon {
+  background-image: url(https://m.media-amazon.com/images/S/sash/Z8YwjOjqIHxqujG.png);
+  height: 12px;
+  width: 18px;
+  position: relative;
+  margin: 3px 0 0;
+  top: 1px;
+  background-position: -54px -108px;
+  display: inline-block;
+}
+.end-footer-icon{
+  background-image: url(https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB541706272_.png);
+  background-position: -136px -380px;
+  width: 29px;
+  height: 14px;
+  position: relative;
+  top: 2.25px;
+  padding: 0 .6em;
+  display: inline-block;
+}

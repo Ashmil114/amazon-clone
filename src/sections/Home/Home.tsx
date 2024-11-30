@@ -144,7 +144,7 @@ function Home() {
         <div className="min-w-[940px] relative ">
           <br />
           <div className="">
-            <div className="border-[1px] border-solid border-[#ddd] rounded-[5px] px-[20px] flex justify-center">
+            <div className="border-[1px] border-solid border-[#ddd] rounded-[5px] px-[20px] flex justify-center pt-[5px] mr-[20px]">
               <div className="p-[10px]"></div>
               <div>
                 <div className="mt-[19px] mb-[17px]  ">
