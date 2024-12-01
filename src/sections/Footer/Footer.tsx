@@ -6,7 +6,7 @@ const Spacer = () => {
 };
 
 const TbSpacer = () => {
-  return <div className="w-[3%] px-[15px]  -my-[10px] "></div>;
+  return <div className="w-[3%] px-[15px]   "></div>;
 };
 
 function Footer() {
@@ -79,19 +79,19 @@ function Footer() {
       {/* Footer Spacer */}
       <div className="border-t-[1px] border-solid border-[#3a4553] mt-[40px]  "></div>
       {/* Footer amazon icon section */}
-      <div className="mx-auto my-[10px] text-center max-w-[1000px] leading-[18px] whitespace-nowrap flex justify-center">
+      <div className="mx-auto my-[11px]  text-center max-w-[1000px] font-ember leading-[18px] whitespace-nowrap flex justify-center">
         <span className="px-[0.6em]">
-          <div className="mt-[12px] mr-auto mb-[15px] ml-auto leading-0 ">
-            <a href="" className="px-[0.6em]">
+          <div className="mt-[12px] mr-auto mb-[15px] ml-auto   leading-0 ">
+            <a href="" className="px-[0.6em] ">
               <div className="footer-amazon-icon"></div>
             </a>
           </div>
         </span>
-        <span className="whitespace-normal align-top mt-[18px]  mb-0 ml-[70px] px-[0.6em]">
+        <span className="whitespace-normal align-top pt-[17px]  mb-0 ml-[70px] px-[0.6em]">
           <div className="text-center leading-[18px] whitespace-nowrap text-[#ddd]">
             <a
               href=""
-              className="whitespace-normal inline-block border-[1px] border-solid border-[#848688] rounded-[3px] py-[6px] pr-[18px] pl-[8px] mr-[8px] text-[13px] "
+              className="whitespace-normal inline-block border-[1px] border-solid border-[#848688] rounded-[3px] py-[6px] pr-[18px] pl-[8px] mr-[7px] text-[13px] "
             >
               <div className="lang-icon"></div>
               <span className="text-[#CCC] px-[0.6em] whitespace-normal inline-block">

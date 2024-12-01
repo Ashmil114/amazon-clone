@@ -21,7 +21,7 @@ function Navbar() {
         {/* 1/3 */}
         <div className="flex w-fit">
           {/* Logo */}
-          <div className="ml-[11px] pt-[4px] h-[60px] flex">
+          <div className="xl:ml-[11px] pt-[4px] h-[60px] flex">
             <a
               href=""
               className="m-[1px] pt-[1px] pl-[6px] pr-[8px] cursor-pointer flex h-full items-center"
@@ -155,17 +155,17 @@ function Navbar() {
             {/* Cart */}
             <a
               href=""
-              className="px-[10px] pb-[8px]  flex flex-col justify-center"
+              className="xl:px-[10px] pb-[8px]  flex flex-col justify-center"
             >
               <div className="flex items-end mt-[16px] ml-[1px]  ">
                 <div className=" mb-[10px] flex    ">
-                  <div className="nav-cart-icon relative">
-                    <h1 className="absolute right-[11px] top-[-8px] font-ember font-[600] text-white">
+                  <div className="nav-cart-icon relative xl:h-[26px] xl:w-[38px] h-[28px] w-[41px]">
+                    <h1 className="absolute xl:right-[11px] right-[16px] top-[-8px] font-ember font-[600] text-white xl:text-[16px] text-[18px]">
                       0
                     </h1>
                   </div>
-                  <div className="flex mt-[12px]">
-                    <span className="text-[14px]  text-white leading-[15px] font-ember  font-[600]  ">
+                  <div className=" mt-[12px]  flex">
+                    <span className="text-[14px]  text-white leading-[15px] font-ember  font-[600] hidden xl:flex ">
                       Cart
                     </span>
                   </div>
