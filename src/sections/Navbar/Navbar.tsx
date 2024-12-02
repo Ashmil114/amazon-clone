@@ -59,7 +59,7 @@ function Navbar() {
 
         {/* 2/3  Searcher*/}
         <div className="h-full flex-1 ">
-          <div className="py-[10px] pl-[3px] pr-[4px] mx-[10px]  flex  flex-1">
+          <div className="py-[10px] pl-[3px] pr-[4px] xl:mx-[10px]  flex  flex-1">
             <form
               action=""
               className="rounded-tl-[4px] rounded-bl-[4px]  h-full overflow-y-hidden flex  flex-1"
@@ -157,10 +157,10 @@ function Navbar() {
               href=""
               className="xl:px-[10px] pb-[8px]  flex flex-col justify-center"
             >
-              <div className="flex items-end mt-[16px] ml-[1px]  ">
+              <div className="flex items-end mt-[16px] ml-[1px] ">
                 <div className=" mb-[10px] flex    ">
                   <div className="nav-cart-icon relative xl:h-[26px] xl:w-[38px] h-[28px] w-[41px]">
-                    <h1 className="absolute xl:right-[11px] right-[16px] top-[-8px] font-ember font-[600] text-white xl:text-[16px] text-[18px]">
+                    <h1 className="absolute xl:right-[11px] right-[14px] top-[-8px] font-ember font-[600] text-white xl:text-[16px] text-[18px]">
                       0
                     </h1>
                   </div>
