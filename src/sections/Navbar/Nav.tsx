@@ -15,7 +15,7 @@ const Item = ({ title }: { title: string }) => {
 };
 function Nav() {
   return (
-    <header>
+    <header className="min-w-[1000px]">
       <div className="nav-container">
         {/* First Nav */}
         <div className="first-nav h-[60px] flex flex-row flex-nowrap w-full z-[5]">
@@ -146,7 +146,7 @@ function Nav() {
                   <span className="flex items-center p-0 m-0 text-[#fff] text-[12px] leading-[14px] h-[14px] "></span>
                   <span className="flex items-center p-0 m-0 text-[#fff] text-[14px] leading-[15px] font-ember font-[700] whitespace-nowrap ">
                     Cart
-                    <span className="nav-misc "></span>
+                    {/* <span className="nav-misc "></span> */}
                   </span>
                 </div>
               </a>

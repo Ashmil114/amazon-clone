@@ -131,7 +131,7 @@ function Footer() {
             {/* 1 */}
             <tr>
               {/* Items */}
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Amazon Music
                   <br />
@@ -143,7 +143,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Amazon Ads
                   <br />
@@ -157,7 +157,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   6pm
                   <br />
@@ -169,7 +169,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   AbeBooks
                   <br />
@@ -180,7 +180,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   ACX
                   <br />
@@ -192,7 +192,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Sell on Amazon
                   <br />
@@ -202,7 +202,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Veeqo
                   <br />
@@ -216,11 +216,11 @@ function Footer() {
             </tr>
             {/* spacer */}
             <tr>
-              <td>&nbsp;</td>
+              <td className="tb-style">&nbsp;</td>
             </tr>
             {/* 2 */}
             <tr>
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Amazon Business
                   <br />
@@ -232,7 +232,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   AmazonGlobal
                   <br />
@@ -244,7 +244,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Home Services
                   <br />
@@ -256,7 +256,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Amazon Web Services
                   <br />
@@ -268,7 +268,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Audible
                   <br />
@@ -280,7 +280,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Box Office Mojo
                   <br />
@@ -292,7 +292,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Goodreads
                   <br />
@@ -304,11 +304,11 @@ function Footer() {
               </td>
             </tr>
             <tr>
-              <td>&nbsp;</td>
+              <td className="tb-style">&nbsp;</td>
             </tr>
             {/* 3 */}
             <tr>
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   IMDb
                   <br />
@@ -319,7 +319,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   IMDbPro
                   <br />
@@ -331,7 +331,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Kindle Direct Publishing
                   <br />
@@ -343,7 +343,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Prime Video Direct
                   <br />
@@ -355,7 +355,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Shopbop
                   <br />
@@ -367,7 +367,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Woot!
                   <br />
@@ -379,7 +379,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Zappos
                   <br />
@@ -392,11 +392,11 @@ function Footer() {
               </td>
             </tr>
             <tr>
-              <td>&nbsp;</td>
+              <td className="tb-style">&nbsp;</td>
             </tr>
             {/* 4 */}
             <tr>
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Ring
                   <br />
@@ -408,7 +408,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   eero WiFi
                   <br />
@@ -420,7 +420,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Blink
                   <br />
@@ -432,7 +432,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Neighbors App
                   <br />
@@ -443,7 +443,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   Amazon Subscription Boxes
                   <br />
@@ -453,7 +453,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
+              <td className="tb-style">
                 <a href="" className="text-[#ddd] whitespace-normal ">
                   PillPack
                   <br />
@@ -463,9 +463,7 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="text-[12px] px-[.75em] align-top text-left leading-[112%]">
-                &nbsp;
-              </td>
+              <td className="tb-style">&nbsp;</td>
             </tr>
           </tbody>
         </table>

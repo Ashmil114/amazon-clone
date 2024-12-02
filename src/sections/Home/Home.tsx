@@ -21,7 +21,7 @@ import {
 } from "../../constants/BigCardCarosalData";
 function Home() {
   return (
-    <div className="leading-[20px]">
+    <div className="leading-[20px] min-w-[1000px]">
       {/* Banner Section */}
       <div className=" max-h-[230px]   h-[300px] overflow-visible ">
         <div className="home-banner"></div>

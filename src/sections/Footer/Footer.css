@@ -36,13 +36,17 @@
   background-position: -54px -108px;
   display: inline-block;
 }
-.end-footer-icon{
+.end-footer-icon {
   background-image: url(https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB541706272_.png);
   background-position: -136px -380px;
   width: 29px;
   height: 14px;
   position: relative;
   top: 2.25px;
-  padding: 0 .6em;
+  padding: 0 0.6em;
   display: inline-block;
+}
+
+.tb-style {
+  @apply text-[12px] px-[.75em] align-top text-left leading-[117.5%];
 }
