@@ -1,4 +1,18 @@
 import "./Nav.css";
+
+const Item = ({ title }: { title: string }) => {
+  return (
+    <div className="h-full w-fit  flex items-center ml-[1px] ">
+      <a href="" className="   ">
+        <div className="px-[8px] py-[9px] flex items-center">
+          <span className="text-[14px] text-white mb-[2px] font-ember font-[400]">
+            {title}
+          </span>
+        </div>
+      </a>
+    </div>
+  );
+};
 function Nav() {
   return (
     <header>
@@ -16,11 +30,11 @@ function Nav() {
                 <span className="logo mt-[11px]"></span>
               </a>
             </div>
-            <div className="xl:ml-[2px] w-auto p-0 m-0 h-[60px] flex overflow-hidden">
+            <div className="xl:ml-[2px]  w-auto p-0 m-0 h-[60px] flex overflow-hidden">
               <span className="flex w-fit ">
                 <a
                   href=""
-                  className="px-[9px] py-0 my-[5px] mr-[2px] ml-0 flex flex-row flex-nowrap w-fit h-auto items-center overflow-hidden text-[#d6d6d6]"
+                  className="pr-[9px] pl-[8px] py-0 my-[5px] mr-[2px] ml-0 flex flex-row flex-nowrap w-fit h-auto items-center overflow-hidden text-[#d6d6d6]"
                 >
                   <div className="location-icon"></div>
                   <div className="ml-[3px] flex flex-col flex-nowrap">
@@ -93,10 +107,73 @@ function Nav() {
               </a>
               <a
                 href=""
-                className="lg:ml-[2px] px-[9px] flex relative items-start pb-[5px] justify-center h-[50px] overflow-hidden leading-[44px] cursor-pointer"
-              ></a>
+                className="lg:ml-[2px] px-[9px] flex relative flex-col items-start pb-[10px] justify-center h-[50px] overflow-hidden leading-[44px] cursor-pointer"
+              >
+                <div className="relative w-full h-[14px] mt-[9px] flex items-center p-0 m-0 text-[#d6d6d6]">
+                  <span className="flex items-center text-[#fff] text-[12px] leading-[14px] h-[14px] font-ember">
+                    Hello, sign in
+                  </span>
+                </div>
+                <span className="w-auto min-w-0 flex items-center p-0 m-0 text-[14px] leading-[15px] font-ember font-[700] whitespace-nowrap text-[#fff]">
+                  Account & Lists
+                  <span className="nav-order-arrow-icon"></span>
+                </span>
+              </a>
+              <a
+                href=""
+                className="lg:ml-[2px]  px-[9px] flex relative flex-col items-start pb-[10px] justify-center h-[50px] overflow-hidden leading-[44px] cursor-pointer"
+              >
+                <span className="mt-[9px] h-[14px] flex items-center p-0 m-0 text-[#fff] text-[12px] leading-[14px] font-ember whitespace-nowrap">
+                  Returns
+                </span>
+                <span className="w-auto min-w-0 flex items-center p-0 m-0 text-[14px] leading-[15px] font-ember font-[700] whitespace-nowrap text-[#fff]">
+                  & Orders
+                  {/* <span className="nav-lang-arrow-icon "></span> */}
+                </span>
+              </a>
+              {/* Cart icon */}
+              <a
+                href=""
+                className="mr-[10px]  xl:ml-[1px] px-[10px] pb-[11px] flex justify-center h-[50px] overflow-hidden leading-[44px]   "
+              >
+                <div className="relative pb-[1px] flex flex-col flex-nowrap justify-end items-start">
+                  <span className="absolute left-[13px] right-auto top-[-6px] flex justify-center items-center p-0 m-0 text-[#fff] w-[19px] text-[16px] text-center font-ember font-[700] ">
+                    0
+                  </span>
+                  <span className="nav-cart-icon"></span>
+                </div>
+                <div className="flex flex-col flex-nowrap justify-end items-start ">
+                  <span className="flex items-center p-0 m-0 text-[#fff] text-[12px] leading-[14px] h-[14px] "></span>
+                  <span className="flex items-center p-0 m-0 text-[#fff] text-[14px] leading-[15px] font-ember font-[700] whitespace-nowrap ">
+                    Cart
+                    <span className="nav-misc "></span>
+                  </span>
+                </div>
+              </a>
             </div>
           </div>
+        </div>
+      </div>
+
+      {/* Second nav */}
+      <div className="h-[39px] second-header flex">
+        <div className="h-full w-fit pl-[11px] flex items-center ">
+          <a href="" className="   ">
+            <div className="px-[9px] py-[8px] flex items-center">
+              <div className="second-nav-burger-icon"></div>
+              <span className="text-[14px] ml-[5px] font-ember text-white font-[600]">
+                All
+              </span>
+            </div>
+          </a>
+        </div>
+
+        <div className="flex gap-[1px]">
+          <Item title="Today's Deals" />
+          <Item title="Customer Service" />
+          <Item title="Registry" />
+          <Item title="Gift Cards" />
+          <Item title="Sell" />
         </div>
       </div>
     </header>
