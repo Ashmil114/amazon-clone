@@ -26,7 +26,7 @@ function BigCardCarosal({ title, subtitle, items }: BigCardCarosalType) {
                 <div className="w-full ">
                   <div className="h-full relative">
                     <div className="m-0 overflow-hidden min-h-[1px] relative ">
-                      <div className="h-[305px] w-full overflow-hidden">
+                      <div className="h-[305px] w-full overflow-hidden ">
                         <ol className="h-[305px] m-0 whitespace-nowrap overflow-x-visible tracking-[-4px] ">
                           {/* Big Card */}
                           {items.map((item, index) => (

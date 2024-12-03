@@ -4,7 +4,8 @@
   z-index: inherit;
   height: 48px;
   width: 100%;
-  background: linear-gradient(90deg, #ff6200, #c94e02);
+  /* background: linear-gradient(90deg, #ff6200, #c94e02); */
+  background: linear-gradient(90deg, #003d32, #04734b);
   flex-flow: row nowrap;
   justify-content: space-between;
 }
@@ -53,7 +54,8 @@
 }
 
 .nav-form {
-  background: linear-gradient(90deg, #ff6200, #c94e02);
+  /* background: linear-gradient(90deg, #ff6200, #c94e02); */
+  background: linear-gradient(90deg, #003d32, #04734b);
   display: block;
   padding: 2px 10px 5px 10px;
   position: relative;
@@ -110,7 +112,8 @@
   margin: 2px 10px 5px 5px;
   border: 0;
   cursor: pointer;
-  background: -webkit-linear-gradient(top, #ff6200, #ff6200);
+  /* background: -webkit-linear-gradient(top, #ff6200, #ff6200); */
+  background: #a9176f;
 }
 .btn-container input {
   border-radius: 8px 8px 8px 8px;

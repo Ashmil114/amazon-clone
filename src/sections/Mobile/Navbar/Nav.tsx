@@ -19,7 +19,7 @@ const Item = ({ title }: { title: string }) => {
   return (
     <a
       href=""
-      className="text-[#161d26] mb-[20px] ml-[15px] pr-[3px] leading-[15px] text-[15px] font-ember relative float-left whitespace-nowrap "
+      className="text-[#fff] mb-[20px] ml-[15px] pr-[3px] leading-[15px] text-[15px] font-ember relative float-left whitespace-nowrap "
     >
       {title}
     </a>
@@ -92,14 +92,14 @@ function Nav() {
           </form>
         </div>
         {/* 3/4 */}
-        <div className="h-[45px] flex overflow-x-scroll pt-[12px] bg-[#ff7a26] w-full overflow-hidden">
+        <div className="h-[45px] flex overflow-x-scroll pt-[12px] bg-[#085749] w-full overflow-hidden">
           {data.map((title, i) => (
             <Item title={title} key={i} />
           ))}
         </div>
         {/* 4/4 */}
-        <div className="bg-[#ffa64d] h-[44px] w-full flex overflow-hidden ">
-          <div className="float-left py-[12px] px-[10px] h-full invert flex ">
+        <div className="bg-[#117a54] h-[44px] w-full flex overflow-hidden ">
+          <div className="float-left py-[12px] px-[10px] h-full flex ">
             <div className="nav-loc-icon"></div>
             <div className="float-left h-[20px] inline-block flex-grow">
               <span className="float-left clear-both text-[13px] leading-[20px] text-[#fff] inline-block font-ember w-full overflow-hidden whitespace-nowrap text-ellipsis">

@@ -1,0 +1,11 @@
+.carosalitemcard::-webkit-scrollbar {
+  /* width: 702px; */
+  height: 6px;
+}
+.carosalitemcard::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+.carosalitemcard::-webkit-scrollbar-thumb {
+  background: #aaa;
+  border-radius: 6px;
+}

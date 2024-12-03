@@ -1,3 +1,4 @@
+import "./styles.css";
 export type CarosalType = {
   title: string;
   subtitle: string;
@@ -38,10 +39,8 @@ function CarosalItemCard({ title, subtitle, image }: CarosalType) {
           </div>
           {/* Carosal body */}
           <div className="w-full relative overflow-hidden mb-0">
-            <div className="w-full min-h-[220px] whitespace-nowrap overflow-hidden relative ">
-              {/* m-0 */}
+            <div className="w-full min-h-[220px] whitespace-nowrap overflow-hidden relative overflow-x-scroll carosalitemcard">
               <ul className="inline-block relative  mb-[14px] left-0 ">
-                {/* p-0 */}
                 {/* Single img */}
                 {image.map((img, index) => (
                   <ImageItem key={index} url={img} />
@@ -49,11 +48,11 @@ function CarosalItemCard({ title, subtitle, image }: CarosalType) {
               </ul>
             </div>
           </div>
-          <span className="absolute h-[6px] bottom-[10px] left-[20px] w-full hidden group-hover:block">
+          {/* <span className="absolute h-[6px] bottom-[10px] left-[20px] w-full hidden group-hover:block">
             <span className="h-0 bg-[#eee] rounded-[4px] w-full relative top-[2px] m-0">
               <span className="w-[702px] left-0 bg-[#aaa] h-[6px] absolute rounded-[6px] top-[-2px] inline "></span>
             </span>
-          </span>
+          </span> */}
         </div>
       </div>
     </div>
