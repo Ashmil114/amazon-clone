@@ -51,7 +51,7 @@ function Nav() {
           </div>
           {/* Nav Fill */}
           <div className="h-[60px] flex flex-grow flex-shrink basis-auto overflow-visible w-auto whitespace-nowrap ">
-            <div className="xl:mx-[10px]  mx-[6px] my-0 py-[10px] pr-[4px] pl-[3px] h-[60px] flex flex-grow flex-shrink basis-auto whitespace-nowrap  overflow-hidden w-auto ">
+            <div className="xl:mx-[10px]   my-0 py-[10px] pr-[4px] pl-[3px] h-[60px] flex flex-grow flex-shrink basis-auto whitespace-nowrap  overflow-hidden w-auto ">
               <div></div>
               <form
                 action=""
@@ -107,7 +107,7 @@ function Nav() {
               </a>
               <a
                 href=""
-                className="lg:ml-[2px] px-[9px] flex relative flex-col items-start pb-[10px] justify-center h-[50px] overflow-hidden leading-[44px] cursor-pointer"
+                className="xl:ml-[2px] px-[9px] flex relative flex-col items-start pb-[10px] justify-center h-[50px] overflow-hidden leading-[44px] cursor-pointer"
               >
                 <div className="relative w-full h-[14px] mt-[9px] flex items-center p-0 m-0 text-[#d6d6d6]">
                   <span className="flex items-center text-[#fff] text-[12px] leading-[14px] h-[14px] font-ember">
@@ -121,7 +121,7 @@ function Nav() {
               </a>
               <a
                 href=""
-                className="lg:ml-[2px]  px-[9px] flex relative flex-col items-start pb-[10px] justify-center h-[50px] overflow-hidden leading-[44px] cursor-pointer"
+                className="xl:ml-[2px]  px-[9px] flex relative flex-col items-start pb-[10px] justify-center h-[50px] overflow-hidden leading-[44px] cursor-pointer"
               >
                 <span className="mt-[9px] h-[14px] flex items-center p-0 m-0 text-[#fff] text-[12px] leading-[14px] font-ember whitespace-nowrap">
                   Returns
@@ -134,15 +134,15 @@ function Nav() {
               {/* Cart icon */}
               <a
                 href=""
-                className="mr-[10px]  xl:ml-[1px] px-[10px] pb-[11px] flex justify-center h-[50px] overflow-hidden leading-[44px]   "
+                className="xl:mr-[10px] mr-[3px] xl:ml-[1px] xl:px-[10px] px-[9px] xl:pb-[11px] pb-[10px] flex justify-center h-[50px] overflow-hidden leading-[44px]   "
               >
                 <div className="relative pb-[1px] flex flex-col flex-nowrap justify-end items-start">
-                  <span className="absolute left-[13px] right-auto top-[-6px] flex justify-center items-center p-0 m-0 text-[#fff] w-[19px] text-[16px] text-center font-ember font-[700] ">
+                  <span className="absolute xl:left-[13px] left-[14px] right-auto top-[-6px]   flex justify-center items-center p-0 m-0 text-[#fff] w-[19px] text-[18px] xl:text-[16px] text-center font-ember font-[700] ">
                     0
                   </span>
                   <span className="nav-cart-icon"></span>
                 </div>
-                <div className="flex flex-col flex-nowrap justify-end items-start ">
+                <div className="xl:flex flex-col flex-nowrap justify-end items-start hidden ">
                   <span className="flex items-center p-0 m-0 text-[#fff] text-[12px] leading-[14px] h-[14px] "></span>
                   <span className="flex items-center p-0 m-0 text-[#fff] text-[14px] leading-[15px] font-ember font-[700] whitespace-nowrap ">
                     Cart

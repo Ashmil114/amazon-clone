@@ -1,0 +1,32 @@
+.nav-logobar {
+  display: flex;
+  position: relative;
+  z-index: inherit;
+  height: 48px;
+  width: 100%;
+  background: linear-gradient(90deg, #ff6200, #c94e02);
+  flex-flow: row nowrap;
+  justify-content: space-between;
+}
+
+.nav-burger-icon {
+  background-image: url(https://m.media-amazon.com/images/G/01/gno/sprites/new-nav-sprite-global-2x_blueheaven-privacy._CB541719889_.png);
+  background-size: 275px;
+  background-position: -20px -378px;
+  display: block;
+  width: 20px;
+  height: 20px;
+  text-indent: -500px;
+  overflow: hidden;
+}
+
+.nav-logo {
+  background-image: url(https://m.media-amazon.com/images/G/01/gno/sprites/new-nav-sprite-global-2x_blueheaven-privacy._CB541719889_.png);
+  background-size: 275px;
+  background-position: -94px -465px;
+  width: 79px;
+  height: 27px;
+  float: left;
+  text-indent: -500px;
+  padding: 10px 40px 0 20px;
+}

@@ -42,7 +42,7 @@ function Home() {
           </div>
         </div>
         {/* First Card Section */}
-        <div className="py-[20px]  flex flex-row flex-wrap max-w-[1480px] overflow-hidden ">
+        <div className="py-[20px]  flex-row flex-wrap max-w-[1480px] overflow-hidden hidden xl:flex">
           {data.map((item, index) => (
             <Fragment key={index}>
               {item.type === "multiple" ? (
@@ -55,6 +55,25 @@ function Home() {
               )}
             </Fragment>
           ))}
+        </div>
+        <div className="py-[20px]  flex flex-row flex-wrap max-w-[1480px] overflow-hidden xl:hidden">
+          {data.map((item, index) => (
+            <Fragment key={index}>
+              {item.type === "multiple" ? (
+                <FirstItemCard4_4 {...item} />
+              ) : (
+                <SingleItemCard {...item} />
+              )}
+              {(index + 1) % 3 === 0 && data.length !== index + 1 && (
+                <Divider />
+              )}
+            </Fragment>
+          ))}
+          <SingleItemCard
+            title="Deals in PCs"
+            url="https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Events/2023/EBF23/Fuji_Desktop_Single_image_EBF_1x_v1._SY304_CB573698005_.jpg"
+            footer="Shop now"
+          />
         </div>
         {/* Carosal  cards section */}
         {CarosalData.map((item, index) => (
@@ -70,7 +89,7 @@ function Home() {
         {BigCardData.map((data, index) => (
           <BigCardCarosal {...data} key={index} />
         ))}
-        <div className="py-[20px]  flex flex-row flex-wrap max-w-[1480px] overflow-hidden ">
+        <div className="py-[20px]   flex-row flex-wrap max-w-[1480px] overflow-hidden hidden xl:flex">
           {data2.map((item, index) => (
             <Fragment key={index}>
               {item.type === "multiple" ? (
@@ -81,6 +100,20 @@ function Home() {
               {(index + 1) % 4 === 0 && data2.length !== index + 1 && (
                 <Divider />
               )}
+            </Fragment>
+          ))}
+        </div>
+        <div className="py-[20px]  flex flex-row flex-wrap max-w-[1480px] overflow-hidden xl:hidden">
+          {data2.slice(0, 3).map((item, index) => (
+            <Fragment key={index}>
+              {item.type === "multiple" ? (
+                <FirstItemCard4_4 {...item} />
+              ) : (
+                <SingleItemCard {...item} />
+              )}
+              {/* {(index + 1) % 3 === 0 && data2.length !== index + 1 && (
+                <Divider />
+              )} */}
             </Fragment>
           ))}
         </div>
@@ -95,7 +128,7 @@ function Home() {
         {CarosalData3.map((item, index) => (
           <CarosalItemCard key={index} {...item} />
         ))}
-        <div className="py-[20px]  flex flex-row flex-wrap max-w-[1480px] overflow-hidden ">
+        <div className="py-[20px]  flex-row flex-wrap max-w-[1480px] overflow-hidden hidden xl:flex">
           {data3.map((item, index) => (
             <Fragment key={index}>
               {item.type === "multiple" ? (
@@ -109,6 +142,20 @@ function Home() {
             </Fragment>
           ))}
         </div>
+        <div className="py-[20px]  flex flex-row flex-wrap max-w-[1480px] overflow-hidden xl:hidden">
+          {data3.slice(0, 3).map((item, index) => (
+            <Fragment key={index}>
+              {item.type === "multiple" ? (
+                <FirstItemCard4_4 {...item} />
+              ) : (
+                <SingleItemCard {...item} />
+              )}
+              {/* {(index + 1) % 3 === 0 && data2.length !== index + 1 && (
+                <Divider />
+              )} */}
+            </Fragment>
+          ))}
+        </div>
 
         {CarosalData4.map((item, index) => (
           <CarosalItemCard key={index} {...item} />
@@ -117,7 +164,7 @@ function Home() {
         {CarosalData5.map((item, index) => (
           <CarosalItemCard key={index} {...item} />
         ))}
-        <div className="py-[20px]  flex flex-row flex-wrap max-w-[1480px] overflow-hidden ">
+        <div className="py-[20px]  flex-row flex-wrap max-w-[1480px] overflow-hidden hidden xl:flex">
           {data4.map((item, index) => (
             <Fragment key={index}>
               {item.type === "multiple" ? (
@@ -128,6 +175,20 @@ function Home() {
               {(index + 1) % 4 === 0 && data2.length !== index + 1 && (
                 <Divider />
               )}
+            </Fragment>
+          ))}
+        </div>
+        <div className="py-[20px]  flex flex-row flex-wrap max-w-[1480px] overflow-hidden xl:hidden">
+          {data4.slice(0, 3).map((item, index) => (
+            <Fragment key={index}>
+              {item.type === "multiple" ? (
+                <FirstItemCard4_4 {...item} />
+              ) : (
+                <SingleItemCard {...item} />
+              )}
+              {/* {(index + 1) % 4 === 0 && data2.length !== index + 1 && (
+                <Divider />
+              )} */}
             </Fragment>
           ))}
         </div>

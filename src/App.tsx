@@ -1,14 +1,15 @@
-import Footer from "./sections/Footer/Footer";
-import Home from "./sections/Home/Home";
-import Nav from "./sections/Navbar/Nav";
+import Mobile from "./views/Mobile";
+import Web from "./views/Web";
 
 export default function App() {
   return (
     <>
-      {/* <Navbar /> */}
-      <Nav />
-      <Home />
-      <Footer />
+      <div className="md:block hidden">
+        <Web />
+      </div>
+      <div className="md:hidden block">
+        <Mobile />
+      </div>
     </>
   );
 }

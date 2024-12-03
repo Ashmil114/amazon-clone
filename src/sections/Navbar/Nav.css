@@ -154,3 +154,19 @@
   height: 14px;
   width: 17px;
 }
+
+@media (max-width: 1024px) {
+  .nav-cart-icon {
+    background-image: url(https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB541706272_.png);
+    /* background-image: url(https://m.media-amazon.com/images/G/01/gno/sprites/nav-sprite-global-1x-reorg-privacy._CB541706272_.png); */
+    width: 41px;
+    height: 28px;
+    background-position: -218px -337px;
+    display: flex;
+    align-items: center;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    line-height: 44px;
+  }
+}
