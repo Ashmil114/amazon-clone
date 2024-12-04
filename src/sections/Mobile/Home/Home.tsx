@@ -1,6 +1,9 @@
 import Banner from "../../../components/Mobile/Banner";
+import FirstBigImgCard from "../../../components/Mobile/FirstBigImgCard";
+import NoTitleCard4_4 from "../../../components/Mobile/NoTitleCard4_4";
 import TitleCardSqr4_4 from "../../../components/Mobile/TitleCardSqr4_4";
 import TitledCard from "../../../components/Mobile/TitledCard";
+import { data1 } from "../../../constants/Mobile/NoTitleCard";
 import { TitleData4_4 } from "../../../constants/Mobile/TitleCard4_4Data";
 import "./Home.css";
 
@@ -91,69 +94,10 @@ function Home() {
         {TitleData4_4.map((item, index) => (
           <TitleCardSqr4_4 {...item} key={index} />
         ))}
-
-        <div className="">
-          <div className="my-[5px] bg-[#fff] overflow-auto py-[12px] px-[15px] ">
-            {/* Title */}
-            <div className="pb-[8px] ">
-              <h3 className="font-ember font-[700] text-[18px] leading-[1.25]">
-                <span className="leading-[1.3em] max-h-[2.6em] block relative w-full overflow-hidden ">
-                  <span className="h-auto inline-block w-full whitespace-normal ">
-                    Get ready for a day out with your little one
-                  </span>
-                </span>
-              </h3>
-            </div>
-            {/* Card Body */}
-            <div className="relative m-auto max-w-[500px] ">
-              <div className="mb-[8px] ">
-                <a href="">
-                  <div className="h-[200px] ">
-                    <div className="rounded-[4px] h-full overflow-hidden relative w-full ">
-                      <img
-                        src="	https://m.media-amazon.com/images/I/31-DyDlXzXL._SY400_.jpg"
-                        alt=""
-                        className="absolute m-auto h-full left-[-9999px] right-[-9999px] max-w-none align-top  "
-                      />
-                    </div>
-                  </div>
-                  <span className="text-[#0f1111] ">
-                    <span className="leading-[1.3em] max-h-[2.6em] block relative w-full overflow-hidden ">
-                      <span className="inline-block w-full whitespace-normal font-ember h-auto">
-                        Snacks & food
-                      </span>
-                    </span>
-                  </span>
-                </a>
-              </div>
-              <div className="mb-0 flex overflow-auto ">
-                {/* single item */}
-                <div className="ml-[8px] first:ml-0 inline-block w-full ">
-                  <a href="" className="">
-                    <div className="h-[110px] ">
-                      <div className="rounded-[4px] h-full overflow-hidden relative w-full ">
-                        <img
-                          src="https://m.media-amazon.com/images/I/31ctiUOeukL._SY220_.jpg"
-                          alt=""
-                          className="absolute m-auto h-full left-[-9999px] right-[-9999px] max-w-none align-top  "
-                        />
-                      </div>
-                    </div>
-                    {/* product title */}
-
-                    <span className="text-[#0f1111] ">
-                      <span className="leading-[1.3em] max-h-[2.6em] block relative w-full overflow-hidden ">
-                        <span className="inline-block w-full whitespace-normal font-ember h-auto">
-                          Toys
-                        </span>
-                      </span>
-                    </span>
-                  </a>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
+        <FirstBigImgCard />
+        {data1.map((item, index) => (
+          <NoTitleCard4_4 {...item} key={index} />
+        ))}
       </div>
     </div>
   );
