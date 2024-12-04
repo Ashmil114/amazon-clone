@@ -283,3 +283,216 @@ export const TitleData4_4: TitleData4_4Type[] = [
     footer: "Shop long-lasting picks",
   },
 ];
+
+export const dataTD: TitleData4_4Type[] = [
+  {
+    title: "Have more fun with the family",
+    item: [
+      {
+        title: "Outdoor Play Sets",
+        url: "https://m.media-amazon.com/images/I/31uBBG+KvtL._SR420,420_.jpg",
+      },
+      {
+        title: "Learning Toy",
+        url: "	https://m.media-amazon.com/images/I/31QJz8+ereL._SR420,420_.jpg",
+      },
+      {
+        title: "Action Figures",
+        url: "	https://m.media-amazon.com/images/I/310Ke5y4pBL._SR420,420_.jpg",
+      },
+      {
+        title: "Pretend Play Toys",
+        url: "	https://m.media-amazon.com/images/I/416Kr1IKmgL._SR420,420_.jpg",
+      },
+    ],
+    footer: "See more",
+  },
+];
+
+export const dataTD2: TitleData4_4Type[] = [
+  {
+    title: "Level up your beauty routine",
+    item: [
+      {
+        url: "https://m.media-amazon.com/images/I/31aJyAdILmL._SR420,420_.jpg",
+        title: "Makeup",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/41MIeNiwdhL._SR420,420_.jpg",
+        title: "Brushes",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/31wSz8gA5wL._SR420,420_.jpg",
+        title: "Sponges",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/21xHtP1ZnlL._SR420,420_.jpg",
+        title: "Mirrors",
+      },
+    ],
+    footer: "See more",
+  },
+  {
+    title: "Handpicked home theater",
+    item: [
+      {
+        url: "https://m.media-amazon.com/images/I/41Nldn0FGML._SR420,420_.jpg",
+        title: "Televisions",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/4198T9z6hjL._SR420,420_.jpg",
+        title: "Speakers",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/41Z1yvPi2rL._SR420,420_.jpg",
+        title: "Soundbars",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/41J5MFD8nnL._SR420,420_.jpg",
+        title: "Projectors",
+      },
+    ],
+    footer: "See more products",
+  },
+  {
+    title: "Fashion trends in Shoes",
+    item: [
+      {
+        url: "https://m.media-amazon.com/images/I/41EQyn8aFaL._SR420,420_.jpg",
+        title: "Shop women's",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/41VYpl4X2CL._SR420,420_.jpg",
+        title: "Shop men's",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/41-zOL2WhXL._SR420,420_.jpg",
+        title: "Shop kids'",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/61CgHE-YLyL._SR1050,1050_.jpg",
+        title: "Shop more shoes",
+      },
+    ],
+    footer: "Shop more",
+  },
+  {
+    title: "New home arrivals under $50",
+    item: [
+      {
+        url: "https://m.media-amazon.com/images/I/41I85MytToL._SR420,420_.jpg",
+        title: "Kitchen & dining",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/41mb6AUCJSL._SR420,420_.jpg",
+        title: "Home improvement",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/41J1-iazq6L._SR420,420_.jpg",
+        title: "Décor",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/417HmRJ2WJL._SR420,420_.jpg",
+        title: "Bedding & bath",
+      },
+    ],
+    footer: "Shop the latest from Home",
+  },
+];
+
+export const dataTD3: TitleData4_4Type[] = [
+  {
+    title: "Gaming merchandise",
+    item: [
+      {
+        url: "https://m.media-amazon.com/images/I/31y+QwIZnWL._SR419,421_.jpg",
+        title: "Apparel",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/21g1F3v5SML._SR419,421_.jpg",
+        title: "Hats",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/31zdVJJOPCL._SR419,421_.jpg",
+        title: "Action figures",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/41Vq1DhHdQL._SR419,421_.jpg",
+        title: "Mugs",
+      },
+    ],
+    footer: "See more",
+  },
+];
+
+export const dataTD4: TitleData4_4Type[] = [
+  {
+    title: "Accessorize your life",
+    item: [
+      {
+        url: "https://m.media-amazon.com/images/I/413lM0C0PEL._SR420,420_.jpg",
+        title: "Fashion accessories",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/410LHEUGZ5L._SR420,420_.jpg",
+        title: "Men's accessories",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/41IIOwmruhL._SR420,420_.jpg",
+        title: "Health and beauty",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/31KVFrr1USL._SR420,420_.jpg",
+        title: "Sports",
+      },
+    ],
+    footer: "Shop more",
+  },
+  {
+    title: "Summer fashion for all",
+    item: [
+      {
+        url: "https://m.media-amazon.com/images/I/41SR9ucwXgL._SR420,420_.jpg",
+        title: "All fashion",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/410qNwH4JzL._SR420,420_.jpg",
+        title: "Women's",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/41mscXzneqL._SR420,420_.jpg",
+        title: "Men's",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/41rdubTJjYL._SR420,420_.jpg",
+        title: "Kid's",
+      },
+    ],
+    footer: "Shop now",
+  },
+];
+
+export const dataTD5: TitleData4_4Type[] = [
+  {
+    title: "Curate your space",
+    item: [
+      {
+        url: "https://m.media-amazon.com/images/I/415fShfBidL._SR420,420_.jpg",
+        title: "Candles",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/41eHYxK1H4L._SR420,420_.jpg",
+        title: "Stylish pillows",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/41RqiI-5T5L._SR420,420_.jpg",
+        title: "Indoor gardening",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/41wRrAnGAJL._SR420,420_.jpg",
+        title: "Storage organization",
+      },
+    ],
+    footer: "See more",
+  },
+];

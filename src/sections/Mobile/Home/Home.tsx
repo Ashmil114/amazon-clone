@@ -1,10 +1,25 @@
 import Banner from "../../../components/Mobile/Banner";
+import DetailCard from "../../../components/Mobile/DetailCard";
 import FirstBigImgCard from "../../../components/Mobile/FirstBigImgCard";
 import NoTitleCard4_4 from "../../../components/Mobile/NoTitleCard4_4";
+import SingleImgCard from "../../../components/Mobile/SingleImgCard";
 import TitleCardSqr4_4 from "../../../components/Mobile/TitleCardSqr4_4";
 import TitledCard from "../../../components/Mobile/TitledCard";
-import { data1 } from "../../../constants/Mobile/NoTitleCard";
-import { TitleData4_4 } from "../../../constants/Mobile/TitleCard4_4Data";
+import {
+  data1,
+  dataNTD,
+  dataNTD2,
+  dataNTD3,
+} from "../../../constants/Mobile/NoTitleCard";
+import { dataSI, dataSI2 } from "../../../constants/Mobile/SingleImgCard";
+import {
+  dataTD,
+  dataTD2,
+  dataTD3,
+  dataTD4,
+  dataTD5,
+  TitleData4_4,
+} from "../../../constants/Mobile/TitleCard4_4Data";
 import "./Home.css";
 
 const TitledCardData = [
@@ -98,6 +113,37 @@ function Home() {
         {data1.map((item, index) => (
           <NoTitleCard4_4 {...item} key={index} />
         ))}
+        {dataTD.map((item, index) => (
+          <TitleCardSqr4_4 {...item} key={index} />
+        ))}
+        {dataNTD.map((item, index) => (
+          <NoTitleCard4_4 {...item} key={index} />
+        ))}
+        {dataTD2.map((item, index) => (
+          <TitleCardSqr4_4 {...item} key={index} />
+        ))}
+        {dataNTD2.map((item, index) => (
+          <NoTitleCard4_4 {...item} key={index} />
+        ))}
+        {dataTD3.map((item, index) => (
+          <TitleCardSqr4_4 {...item} key={index} />
+        ))}
+        {dataSI.map((item, index) => (
+          <SingleImgCard {...item} key={index} />
+        ))}
+        {dataTD4.map((item, index) => (
+          <TitleCardSqr4_4 {...item} key={index} />
+        ))}
+        {dataNTD3.map((item, index) => (
+          <NoTitleCard4_4 {...item} key={index} />
+        ))}
+        {dataSI2.map((item, index) => (
+          <SingleImgCard {...item} key={index} />
+        ))}
+        {dataTD5.map((item, index) => (
+          <TitleCardSqr4_4 {...item} key={index} />
+        ))}
+        <DetailCard />
       </div>
     </div>
   );

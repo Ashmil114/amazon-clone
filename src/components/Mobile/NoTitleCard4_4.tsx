@@ -19,11 +19,11 @@ function NoTitleCard4_4(props: NoTitleType) {
           <div className="notitle-card-body-wrapper ">
             {props.urls.map((url) => (
               <a href="" className="">
-                <div className="relative h-[141px]">
+                <div className="relative ">
                   <img
                     src={url}
                     alt=""
-                    className="h-full  object-contain w-full p-[8px] align-top absolute max-w-full max-h-full bottom-0 top-0 right-0 left-0"
+                    className="h-full  object-contain w-full p-[8px] align-top aspect-square  max-w-full max-h-full bottom-0 top-0 right-0 left-0"
                   />
                 </div>
               </a>

@@ -157,7 +157,7 @@ function Nav() {
 
       {/* Second nav */}
       <div className="h-[39px] second-header flex">
-        <div className="h-full w-fit pl-[11px] flex items-center ">
+        <div className="h-full w-fit xl:pl-[11px] pl-[1px] flex items-center ">
           <a href="" className="   ">
             <div className="px-[9px] py-[8px] flex items-center">
               <div className="second-nav-burger-icon"></div>
