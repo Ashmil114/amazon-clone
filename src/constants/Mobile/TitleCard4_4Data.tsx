@@ -532,7 +532,7 @@ export const dataTD7: TitleData4_4Type[] = [
       },
       {
         url: "https://m.media-amazon.com/images/I/61uornUdm-L._SR540,200_.png",
-        title: "Home andKitchen",
+        title: "Home and Kitchen",
       },
       {
         url: "https://m.media-amazon.com/images/I/71sUjeGHWdL._SR540,200_.png",
@@ -544,7 +544,7 @@ export const dataTD7: TitleData4_4Type[] = [
       },
       {
         url: "https://m.media-amazon.com/images/I/71OooRMu+tL._SR540,200_.png",
-        title: "Outdoor Cloths",
+        title: "Outdoor Clothing",
       },
       {
         url: "https://m.media-amazon.com/images/I/7166hIvPMnL._SR540,200_.png",

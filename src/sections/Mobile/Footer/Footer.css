@@ -10,3 +10,36 @@
   font-size: 0;
   line-height: 0;
 }
+
+.footer-lang-icon-sm {
+  background-position: -77px -24px;
+  background-image: url(https://m.media-amazon.com/images/S/sash/EZ7BoVI$-KcNmTV.png);
+  background-size: 194px 295px;
+  width: 15px;
+  height: 15px;
+  position: relative;
+  top: 0.2em;
+  left: -0.6em;
+}
+.footer-flag-icon-sm {
+  background-image: url(https://m.media-amazon.com/images/S/sash/EZ7BoVI$-KcNmTV.png);
+  background-size: 194px 295px;
+  background-position: -54px -108px;
+  margin: 0 0.5em;
+  width: 18px;
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  height: 12px;
+}
+
+.footer-white-blue-sm-btn {
+  background-image: url(https://m.media-amazon.com/images/G/01/gno/sprites/new-nav-sprite-global-1x_blueheaven-privacy._CB541719889_.png);
+  background-repeat: no-repeat;
+  background-position: -187px -303px;
+  width: 29px;
+  height: 14px;
+  display: inline-block;
+  position: relative;
+  top: 3px;
+}
