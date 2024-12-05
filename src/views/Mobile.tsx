@@ -1,3 +1,4 @@
+import Footer from "../sections/Mobile/Footer/Footer";
 import Home from "../sections/Mobile/Home/Home";
 import Nav from "../sections/Mobile/Navbar/Nav";
 
@@ -6,6 +7,7 @@ function Mobile() {
     <>
       <Nav />
       <Home />
+      <Footer />
     </>
   );
 }
