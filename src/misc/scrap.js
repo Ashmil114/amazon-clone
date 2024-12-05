@@ -33,3 +33,12 @@ for (let i = 20; i < 24; i++) {
 }
 
 JSON.stringify(data);
+
+
+
+// No Title Data
+const imgs =[]
+document.querySelectorAll("#bla a div img").forEach((im)=>(
+  imgs.push(im.src)
+))
+

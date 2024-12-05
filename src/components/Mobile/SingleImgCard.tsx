@@ -20,7 +20,7 @@ function SingleImgCard({ title, url }: SingleImgType) {
             <img
               src={url}
               alt=""
-              className="rounded-[4px] align-top max-w-full "
+              className="rounded-[4px] align-top max-w-full w-full "
             />
           </a>
         </div>

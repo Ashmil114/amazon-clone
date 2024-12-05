@@ -6,18 +6,35 @@ import SingleImgCard from "../../../components/Mobile/SingleImgCard";
 import TitleCardSqr4_4 from "../../../components/Mobile/TitleCardSqr4_4";
 import TitledCard from "../../../components/Mobile/TitledCard";
 import {
+  dataD,
+  dataD2,
+  dataD3,
+  dataD4,
+  dataD5,
+} from "../../../constants/Mobile/DetailCard";
+import {
   data1,
   dataNTD,
   dataNTD2,
   dataNTD3,
+  dataNTD4,
+  dataNTD5,
 } from "../../../constants/Mobile/NoTitleCard";
-import { dataSI, dataSI2 } from "../../../constants/Mobile/SingleImgCard";
+import {
+  dataSI,
+  dataSI2,
+  dataSI3,
+  dataSI4,
+  dataSI5,
+} from "../../../constants/Mobile/SingleImgCard";
 import {
   dataTD,
   dataTD2,
   dataTD3,
   dataTD4,
   dataTD5,
+  dataTD6,
+  dataTD7,
   TitleData4_4,
 } from "../../../constants/Mobile/TitleCard4_4Data";
 import "./Home.css";
@@ -137,13 +154,62 @@ function Home() {
         {dataNTD3.map((item, index) => (
           <NoTitleCard4_4 {...item} key={index} />
         ))}
-        {dataSI2.map((item, index) => (
-          <SingleImgCard {...item} key={index} />
-        ))}
         {dataTD5.map((item, index) => (
           <TitleCardSqr4_4 {...item} key={index} />
         ))}
-        <DetailCard />
+        {dataSI2.map((item, index) => (
+          <SingleImgCard {...item} key={index} />
+        ))}
+        {dataD.map((item, index) => (
+          <DetailCard {...item} key={index} />
+        ))}
+        {dataTD6.map((item, index) => (
+          <TitleCardSqr4_4 {...item} key={index} />
+        ))}
+        {dataD2.map((item, index) => (
+          <DetailCard {...item} key={index} />
+        ))}
+        {dataNTD4.map((item, index) => (
+          <NoTitleCard4_4 {...item} key={index} />
+        ))}
+        {dataSI3.map((item, index) => (
+          <SingleImgCard {...item} key={index} />
+        ))}
+        {dataNTD5.map((item, index) => (
+          <NoTitleCard4_4 {...item} key={index} />
+        ))}
+        {dataD3.map((item, index) => (
+          <DetailCard {...item} key={index} />
+        ))}
+        {dataSI4.map((item, index) => (
+          <SingleImgCard {...item} key={index} />
+        ))}
+        {dataD4.map((item, index) => (
+          <DetailCard {...item} key={index} />
+        ))}
+        {dataSI5.map((item, index) => (
+          <SingleImgCard {...item} key={index} />
+        ))}
+        {dataD5.map((item, index) => (
+          <DetailCard {...item} key={index} />
+        ))}
+
+        <div>
+          <div className="">
+            {/* End text */}
+            <div className="text-[#555] flex text-[13px]  relative whitespace-nowrap z-10">
+              <div className="flex-grow relative end-arrow"></div>
+              <span className="overflow-hidden px-[5px] text-ellipsis  font-ember">
+                You've reached the end. Keep exploring!
+              </span>
+              <div className="flex-grow relative end-arrow"></div>
+            </div>
+
+            {dataTD7.map((item, index) => (
+              <TitleCardSqr4_4 {...item} key={index} />
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );

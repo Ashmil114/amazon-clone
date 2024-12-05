@@ -54,3 +54,41 @@ export const dataNTD3: NoTitleType[] = [
     footer: "See more",
   },
 ];
+
+export const dataNTD4: NoTitleType[] = [
+  {
+    title: "Must have Baby products",
+    urls: [
+      "https://m.media-amazon.com/images/I/712fV9oRPRL._AC_SY400_.jpg",
+      "https://m.media-amazon.com/images/I/81rj+Or7PkL._AC_SY400_.jpg",
+      "https://m.media-amazon.com/images/I/71MdTu854bL._AC_SY400_.jpg",
+      "https://m.media-amazon.com/images/I/71ff5+NJmyL._AC_SY400_.jpg",
+    ],
+    footer: "Shop now",
+  },
+];
+
+export const dataNTD5: NoTitleType[] = [
+  {
+    title: "Girls’ everyday essentials",
+    urls: [
+      "https://m.media-amazon.com/images/I/81ercP15AfL._AC_SY400_.jpg",
+      "https://m.media-amazon.com/images/I/61oQDYgzSbL._AC_SY400_.jpg",
+      "https://m.media-amazon.com/images/I/81Angw3PQ-L._AC_SY400_.jpg",
+      "https://m.media-amazon.com/images/I/71tPcJGvuIL._AC_SY400_.jpg",
+    ],
+    footer: "Shop now",
+  },
+  {
+    title: "Tech Accessories under $10",
+    urls: [
+      "https://m.media-amazon.com/images/I/71IOmppmHBL._AC_SY400_.jpg",
+      "https://m.media-amazon.com/images/I/718LiCraQ2L._AC_SY400_.jpg",
+      "https://m.media-amazon.com/images/I/61mK2ooNdTL._AC_SY400_.jpg",
+      "https://m.media-amazon.com/images/I/71nKG2w6ENL._AC_SY400_.jpg",
+    ],
+    footer: "Shop now",
+  },
+];
+
+// export const dataNTD6: NoTitleType[] = [];

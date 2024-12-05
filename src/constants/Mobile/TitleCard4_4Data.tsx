@@ -496,3 +496,61 @@ export const dataTD5: TitleData4_4Type[] = [
     footer: "See more",
   },
 ];
+
+export const dataTD6: TitleData4_4Type[] = [
+  {
+    title: "Look your best this season",
+    item: [
+      {
+        url: "https://m.media-amazon.com/images/I/41u9C4AnoaL._SR420,420_.jpg",
+        title: "For Her",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/41mhTFj8EhL._SR420,420_.jpg",
+        title: "For Him",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/41VUN4-BMYL._SR420,420_.jpg",
+        title: "For Teens",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/413w78Z-7PL._SR420,420_.jpg",
+        title: "For Kids",
+      },
+    ],
+    footer: "See more",
+  },
+];
+
+export const dataTD7: TitleData4_4Type[] = [
+  {
+    title: "Explore Departments",
+    item: [
+      {
+        url: "https://m.media-amazon.com/images/I/71wBEshTCUL._SR540,200_.png",
+        title: "Beauty",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/61uornUdm-L._SR540,200_.png",
+        title: "Home andKitchen",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/71sUjeGHWdL._SR540,200_.png",
+        title: "Sports and Outdoors",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/71JhsiGGjqL._SR540,200_.png",
+        title: "Electronics",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/71OooRMu+tL._SR540,200_.png",
+        title: "Outdoor Cloths",
+      },
+      {
+        url: "https://m.media-amazon.com/images/I/7166hIvPMnL._SR540,200_.png",
+        title: "Pet Supplies",
+      },
+    ],
+    footer: "All Departments",
+  },
+];
