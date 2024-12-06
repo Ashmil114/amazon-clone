@@ -2,9 +2,9 @@ import "./Nav.css";
 
 const Item = ({ title }: { title: string }) => {
   return (
-    <div className="h-full w-fit  flex items-center ml-[1px] ">
+    <div className="h-full w-fit  flex items-center ml-[1px] 2xl:ml-0">
       <a href="" className="   ">
-        <div className="px-[8px] py-[9px] flex items-center">
+        <div className="px-[8px] 2xl:px-[12px]  py-[9px] 2xl:py-[8px] 2xl:mt-[5px] 2xl:mb-[6px] flex items-center">
           <span className="text-[14px] text-white mb-[2px] font-ember font-[400]">
             {title}
           </span>
@@ -22,7 +22,7 @@ function Nav() {
           {/* Nav left */}
           <div className="h-[60px] flex w-auto">
             {/* Logo */}
-            <div className="xl:ml-[11px] w-auto pt-[4px] flex relative leading-0 h-full">
+            <div className="xl:ml-[11px] 2xl:ml-[15px] w-auto pt-[4px] flex relative leading-0 h-full">
               <a
                 href=""
                 className="flex pt-[1px] pr-[8px] pl-[6px] m-[1px] h-[50px] w-full cursor-pointer"
@@ -34,7 +34,7 @@ function Nav() {
               <span className="flex w-fit ">
                 <a
                   href=""
-                  className="pr-[9px] pl-[8px] py-0 my-[5px] mr-[2px] ml-0 flex flex-row flex-nowrap w-fit h-auto items-center overflow-hidden text-[#d6d6d6]"
+                  className="pr-[9px] pl-[8px] 2xl:pl-[12px] py-0 my-[5px] mr-[2px] ml-0 flex flex-row flex-nowrap w-fit h-auto items-center overflow-hidden text-[#d6d6d6]"
                 >
                   <div className="location-icon"></div>
                   <div className="ml-[3px] flex flex-col flex-nowrap">
@@ -51,7 +51,7 @@ function Nav() {
           </div>
           {/* Nav Fill */}
           <div className="h-[60px] flex flex-grow flex-shrink basis-auto overflow-visible w-auto whitespace-nowrap ">
-            <div className="xl:mx-[10px]   my-0 py-[10px] pr-[4px] pl-[3px] h-[60px] flex flex-grow flex-shrink basis-auto whitespace-nowrap  overflow-hidden w-auto ">
+            <div className="xl:mx-[10px] 2xl:mx-[18px]   my-0 py-[10px] pr-[4px] pl-[3px] h-[60px] flex flex-grow flex-shrink basis-auto whitespace-nowrap  overflow-hidden w-auto ">
               <div></div>
               <form
                 action=""
@@ -107,7 +107,7 @@ function Nav() {
               </a>
               <a
                 href=""
-                className="xl:ml-[2px] px-[9px] flex relative flex-col items-start pb-[10px] justify-center h-[50px] overflow-hidden leading-[44px] cursor-pointer"
+                className="xl:ml-[2px] 2xl:ml-[6px] px-[9px] flex relative flex-col items-start pb-[10px] justify-center h-[50px] overflow-hidden leading-[44px] cursor-pointer"
               >
                 <div className="relative w-full h-[14px] mt-[9px] flex items-center p-0 m-0 text-[#d6d6d6]">
                   <span className="flex items-center text-[#fff] text-[12px] leading-[14px] h-[14px] font-ember">
@@ -121,7 +121,7 @@ function Nav() {
               </a>
               <a
                 href=""
-                className="xl:ml-[2px]  px-[9px] flex relative flex-col items-start pb-[10px] justify-center h-[50px] overflow-hidden leading-[44px] cursor-pointer"
+                className="xl:ml-[2px] 2xl:ml-[6px]  px-[9px] flex relative flex-col items-start pb-[10px] justify-center h-[50px] overflow-hidden leading-[44px] cursor-pointer"
               >
                 <span className="mt-[9px] h-[14px] flex items-center p-0 m-0 text-[#fff] text-[12px] leading-[14px] font-ember whitespace-nowrap">
                   Returns
@@ -134,7 +134,7 @@ function Nav() {
               {/* Cart icon */}
               <a
                 href=""
-                className="xl:mr-[10px] mr-[3px] xl:ml-[1px] xl:px-[10px] px-[9px] xl:pb-[11px] pb-[10px] flex justify-center h-[50px] overflow-hidden leading-[44px]   "
+                className="xl:mr-[10px] 2xl:mr-[15px] 2xl:ml-[6px] mr-[3px] xl:ml-[1px] xl:px-[10px] 2xl:px-[9px] px-[9px] xl:pb-[11px] pb-[10px] flex justify-center h-[50px] overflow-hidden leading-[44px]   "
               >
                 <div className="relative pb-[1px] flex flex-col flex-nowrap justify-end items-start">
                   <span className="absolute xl:left-[13px] left-[14px] right-auto top-[-6px]   flex justify-center items-center p-0 m-0 text-[#fff] w-[19px] text-[18px] xl:text-[16px] text-center font-ember font-[700] ">
@@ -157,7 +157,7 @@ function Nav() {
 
       {/* Second nav */}
       <div className="h-[39px] second-header flex">
-        <div className="h-full w-fit xl:pl-[11px] pl-[1px] flex items-center ">
+        <div className="h-full w-fit xl:pl-[11px] 2xl:pl-[15px] pl-[1px] flex items-center ">
           <a href="" className="   ">
             <div className="px-[9px] py-[8px] flex items-center">
               <div className="second-nav-burger-icon"></div>

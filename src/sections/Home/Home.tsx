@@ -197,42 +197,6 @@ function Home() {
         ))}
         <Divider />
       </div>
-
-      {/* Bottom spacer */}
-      <div className="basis-[100%] flex-grow h-[22px]  overflow-hidden bg-[#ffffff]"></div>
-      {/* Sign Button space Section */}
-      <div className="bg-[#ffffff]">
-        <div className="min-w-[940px] relative ">
-          <br />
-          <div className="">
-            <div className="border-[1px] border-solid border-[#ddd] rounded-[5px] px-[20px] flex justify-center pt-[5px] mr-[20px]">
-              <div className="p-[10px]"></div>
-              <div>
-                <div className="mt-[19px] mb-[17px]  ">
-                  <div className="px-[20px] leading-[15px] flex flex-col items-center">
-                    <br />
-                    <h2 className="text-[24px] leading-[32px] font-[700] font-ember pb-[4px] ">
-                      See personalized recommendations
-                    </h2>
-                    <div className="max-w-[230px] mb-[5px] mt-[5px] w-[230px] signbtn flex justify-center">
-                      <span className="h-[28px]  relative text-[#000] text-[12px] leading-[28px] text-center font-[700] font-ember shadow-[#ffe093]">
-                        Sign in
-                      </span>
-                    </div>
-                    <div className="text-[11px] leading-[15px] text-[#000] font-ember ">
-                      New customer?{" "}
-                      <a href="" className="text-[#007185]">
-                        Start here.
-                      </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <br />
-        </div>
-      </div>
     </div>
   );
 }

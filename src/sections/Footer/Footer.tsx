@@ -12,6 +12,41 @@ const TbSpacer = () => {
 function Footer() {
   return (
     <div className="bg-[#232F3E] min-w-[1000px] relative  ">
+      {/* Bottom spacer */}
+      <div className="basis-[100%] flex-grow h-[22px]  overflow-hidden bg-[#ffffff]"></div>
+      {/* Sign Button space Section */}
+      <div className="bg-[#ffffff]">
+        <div className="min-w-[940px]  relative w-full">
+          <br />
+          <div className="">
+            <div className="border-[1px] border-solid border-[#ddd] rounded-[5px] px-[20px] flex justify-center pt-[5px] mr-[20px]">
+              <div className="p-[10px]"></div>
+              <div>
+                <div className="mt-[19px] mb-[17px]  ">
+                  <div className="px-[20px] leading-[15px] flex flex-col items-center">
+                    <br />
+                    <h2 className="text-[24px] leading-[32px] font-[700] font-ember pb-[4px] ">
+                      See personalized recommendations
+                    </h2>
+                    <div className="max-w-[230px] mb-[5px] mt-[5px] w-[230px] signbtn flex justify-center">
+                      <span className="h-[28px]  relative text-[#000] text-[12px] leading-[28px] text-center font-[700] font-ember shadow-[#ffe093]">
+                        Sign in
+                      </span>
+                    </div>
+                    <div className="text-[11px] leading-[15px] text-[#000] font-ember ">
+                      New customer?{" "}
+                      <a href="" className="text-[#007185]">
+                        Start here.
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <br />
+        </div>
+      </div>
       {/* 1st Footer */}
       <div className="text-[14px] whitespace-normal leading-[20px] ">
         <div className="mb-[40px] bg-[#37475A] flex justify-center">
@@ -124,8 +159,12 @@ function Footer() {
       </div>
 
       {/* 3rd Footer */}
-      <div className="bg-[#131A22] pt-[30px] pb-[20px]   leading-[18px] whitespace-nowrap ">
-        <table className="max-w-[1000px] mx-auto w-full border-collapse font-ember">
+      {/* pb-[20px] */}
+      <div className="bg-[#131A22] pt-[30px] pb-[30px]   leading-[18px] whitespace-nowrap ">
+        <table
+          className="max-w-[1000px] mx-auto w-full border-collapse font-ember mb-0 p-0"
+          id="footer-table"
+        >
           <tbody>
             {/* Row wise items */}
             {/* 1 */}
@@ -216,7 +255,7 @@ function Footer() {
             </tr>
             {/* spacer */}
             <tr>
-              <td className="tb-style">&nbsp;</td>
+              <td>&nbsp;</td>
             </tr>
             {/* 2 */}
             <tr>
@@ -303,8 +342,9 @@ function Footer() {
                 </a>
               </td>
             </tr>
+            {/* spacer */}
             <tr>
-              <td className="tb-style">&nbsp;</td>
+              <td>&nbsp;</td>
             </tr>
             {/* 3 */}
             <tr>
@@ -391,8 +431,9 @@ function Footer() {
                 </a>
               </td>
             </tr>
+            {/* spacer */}
             <tr>
-              <td className="tb-style">&nbsp;</td>
+              <td>&nbsp;</td>
             </tr>
             {/* 4 */}
             <tr>
@@ -463,13 +504,14 @@ function Footer() {
                 </a>
               </td>
               <TbSpacer />
-              <td className="tb-style">&nbsp;</td>
+              {/* spacer */}
+              <td>&nbsp;</td>
             </tr>
           </tbody>
         </table>
       </div>
       {/* End Footer */}
-      <div className="bg-[#131A22] max-w-full m-0 pt-[10px] pb-[30px] text-center text-[#ddd] leading-[18px] whitespace-nowrap">
+      <div className="bg-[#131A22] max-w-full m-0 pt-[5px] pb-[30px] text-center text-[#ddd] leading-[18px] whitespace-nowrap">
         <ul className="flex flex-wrap justify-center ml-[18px] text-[12px] leading-[17px] font-ember mt-[4px]">
           <li className="inline ">
             <a href="" className="text-[#ddd] whitespace-normal px-[.6em] ">

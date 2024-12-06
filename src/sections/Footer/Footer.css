@@ -47,6 +47,29 @@
   display: inline-block;
 }
 
+/* 
+.tb-style-sp {
+  font-size: 13px;
+  line-height: 120%;
+  padding: 0 10px;
+} */
+
+#footer-table td {
+  font-size: 13px;
+  line-height: 120%;
+  padding: 0 10px;
+}
+
 .tb-style {
-  @apply text-[12px] px-[.75em] align-top text-left leading-[117.5%];
+  /* leading-[117.5%] px-[.75em]*/
+  /* @apply text-[12px] px-[.75em] align-top text-left leading-[115%]; */
+  font-size: 12px !important;
+  line-height: 115% !important;
+  padding: 0 0.75em !important;
+  vertical-align: top;
+  text-align: left;
+}
+
+#footer-table span {
+  line-height: 110%;
 }
