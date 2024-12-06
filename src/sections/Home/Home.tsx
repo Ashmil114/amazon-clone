@@ -23,14 +23,14 @@ function Home() {
   return (
     <div className="leading-[20px] min-w-[1000px] max-w-[1500px] mx-auto">
       {/* Banner Section */}
-      <div className=" max-h-[230px]   h-[300px] overflow-visible ">
-        <div className="home-banner"></div>
+      <div className=" max-h-[230px]   h-[300px]  ">
+        <div className="home-banner overflow-visible relative"></div>
       </div>
 
-      <div className="px-[10px] ">
+      <div className="px-[10px] relative z-10">
         {/* Small Description box */}
         <div className="mt-[20px] px-[10px]">
-          <div className="bg-[#f5f6f6] px-[14px] py-[10px] flex items-center justify-center">
+          <div className="bg-[#f5f6f6] px-[14px] py-[10px] flex items-center justify-center ">
             <p className="font-ember text-[14px]">
               You are on amazon.com. You can also shop on Amazon India for
               millions of products with fast local delivery.

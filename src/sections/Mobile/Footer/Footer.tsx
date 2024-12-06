@@ -87,7 +87,7 @@ function Footer() {
             <li className="footer-white-blue-sm-btn px-[10px] ml-[1px]"></li>
           </div>
         </ul>
-        <div className="text-[#ccc] text-center text-[11px] font-ember mb-[-5px]">
+        <div className="text-[#ccc] text-center text-[11px] font-ember mt-[11px]">
           © 1996-2024, Amazon.com, Inc. or its affiliates
         </div>
         {/* Spacer */}
