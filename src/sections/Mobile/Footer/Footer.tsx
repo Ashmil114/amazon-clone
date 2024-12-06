@@ -82,12 +82,14 @@ function Footer() {
           <Footer3_4SItem title="Conditions of Use" />
           <Footer3_4SItem title="Privacy Notice" />
           <Footer3_4SItem title="Consumer Health Data Privacy Disclosure" />
-          <div className="leading-[8px] mt-[1px] ml-[-2px]">
+          {/* <div className="leading-[8px] mt-[1px] ml-[-2px]"> */}
+          <span className="px-[1px]">
             <Footer3_4SItem title="Your Ads Privacy Choices" />
-            <li className="footer-white-blue-sm-btn px-[10px] ml-[1px]"></li>
-          </div>
+          </span>
+          <li className="footer-white-blue-sm-btn pl-[10px]  mt-[1px] mr-[3px]"></li>
+          {/* </div> */}
         </ul>
-        <div className="text-[#ccc] text-center text-[11px] font-ember mt-[11px]">
+        <div className="text-[#ccc] text-center text-[11px] font-ember mt-[-1px]">
           © 1996-2024, Amazon.com, Inc. or its affiliates
         </div>
         {/* Spacer */}
