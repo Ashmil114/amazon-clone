@@ -512,7 +512,7 @@ function Footer() {
           </table>
         </div>
         {/* End Footer */}
-        <div className="bg-[#131A22] max-w-full m-0 pt-[5px] pb-[30px] text-center text-[#ddd] leading-[18px] whitespace-nowrap">
+        <div className="bg-[#131A22] max-w-full m-0 pt-[6px] pb-[30px] text-center text-[#ddd] leading-[18px] whitespace-nowrap">
           <ul className="flex flex-wrap justify-center ml-[18px] text-[12px] leading-[17px] font-ember mt-[4px]">
             <li className="inline ">
               <a href="" className="text-[#ddd] whitespace-normal px-[.6em] ">
@@ -538,9 +538,9 @@ function Footer() {
               <span className="end-footer-icon"></span>
             </li>
           </ul>
-          <span className="whitespace-normal px-[.6em] font-ember inline-block text-[12px] text-center">
+          <div className="whitespace-normal px-[.7em]  font-ember  mt-[1px] text-[12px] text-center">
             © 1996-2024, Amazon.com, Inc. or its affiliates
-          </span>
+          </div>
         </div>
       </div>
     </div>
