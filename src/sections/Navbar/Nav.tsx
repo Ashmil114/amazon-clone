@@ -22,7 +22,7 @@ function Nav() {
           {/* Nav left */}
           <div className="h-[60px] flex w-auto">
             {/* Logo */}
-            <div className="xl:ml-[11px] 2xl:ml-[15px] w-auto pt-[4px] flex relative leading-0 h-full">
+            <div className="xl:ml-[11px] md:ml-[1px] 2xl:ml-[15px] w-auto pt-[4px] flex relative leading-0 h-full">
               <a
                 href=""
                 className="flex pt-[1px] pr-[8px] pl-[6px] m-[1px] h-[50px] w-full cursor-pointer"
@@ -34,7 +34,7 @@ function Nav() {
               <span className="flex w-fit ">
                 <a
                   href=""
-                  className="pr-[9px] pl-[8px] 2xl:pl-[12px] py-0 my-[5px] mr-[2px] ml-0 flex flex-row flex-nowrap w-fit h-auto items-center overflow-hidden text-[#d6d6d6]"
+                  className="pr-[9px] pl-[8px]  2xl:pl-[12px] py-0 my-[5px] mr-[2px] ml-0 flex flex-row flex-nowrap w-fit h-auto items-center overflow-hidden text-[#d6d6d6]"
                 >
                   <div className="location-icon"></div>
                   <div className="ml-[3px] flex flex-col flex-nowrap">
@@ -159,7 +159,7 @@ function Nav() {
       <div className="h-[39px] second-header flex">
         <div className="h-full w-fit xl:pl-[11px] 2xl:pl-[15px] pl-[1px] flex items-center ">
           <a href="" className="   ">
-            <div className="px-[9px] py-[8px] flex items-center">
+            <div className="px-[9px] py-[8px] flex items-center 2xl:mr-[3px]">
               <div className="second-nav-burger-icon"></div>
               <span className="text-[14px] ml-[5px] font-ember text-white font-[600]">
                 All

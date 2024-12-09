@@ -115,15 +115,15 @@ function Footer() {
         {/* Footer Spacer */}
         <div className="border-t-[1px] border-solid border-[#3a4553] mt-[38px]  "></div>
         {/* Footer amazon icon section */}
-        <div className="mx-auto my-[11px]  text-center max-w-[1000px] font-ember leading-[18px] whitespace-nowrap flex justify-center">
-          <span className="px-[0.6em]">
-            <div className="mt-[12px] mr-auto mb-[15px] ml-auto   leading-0 ">
+        <div className="ml-[10px] mt-[11px] mb-[12px]   text-center max-w-[1000px] font-ember leading-[18px] whitespace-nowrap flex justify-center">
+          <span className="pl-[0.6em] pr-[0.4em]">
+            <div className="mt-[11px] mr-auto mb-[15px] ml-[6px]   leading-0 ">
               <a href="" className="px-[0.6em] ">
                 <div className="footer-amazon-icon"></div>
               </a>
             </div>
           </span>
-          <span className="whitespace-normal align-top pt-[17px]  mb-0 ml-[70px] px-[0.6em]">
+          <div className="whitespace-normal align-top pt-[17px] ml-[70px] mb-0  px-[0.6em] ">
             <div className="text-center leading-[18px] whitespace-nowrap text-[#ddd]">
               <a
                 href=""
@@ -148,7 +148,7 @@ function Footer() {
               </a>
               <a
                 href=""
-                className="whitespace-normal inline-block border-[1px] border-solid border-[#848688] rounded-[3px] py-[6px] pr-[18px] pl-[8px] mr-[4px] text-[13px] "
+                className="whitespace-normal inline-block border-[1px] border-solid border-[#848688] rounded-[3px] py-[6px] pr-[18px] pl-[8px]  text-[13px] "
               >
                 <span className="flag-icon"></span>
                 <span className="text-[#CCC] px-[0.6em] whitespace-normal inline-block">
@@ -156,7 +156,7 @@ function Footer() {
                 </span>
               </a>
             </div>
-          </span>
+          </div>
         </div>
 
         {/* 3rd Footer */}
