@@ -115,46 +115,48 @@ function Footer() {
         {/* Footer Spacer */}
         <div className="border-t-[1px] border-solid border-[#3a4553] mt-[38px]  "></div>
         {/* Footer amazon icon section */}
-        <div className="ml-[10px] mt-[11px] mb-[12px]   text-center max-w-[1000px] font-ember leading-[18px] whitespace-nowrap flex justify-center">
-          <span className="pl-[0.6em] pr-[0.4em]">
-            <div className="mt-[11px] mr-auto mb-[15px] ml-[5px]   leading-0 ">
-              <a href="" className="px-[0.6em] ">
-                <div className="footer-amazon-icon"></div>
-              </a>
-            </div>
-          </span>
-          <div className="whitespace-normal align-top pt-[17px] ml-[71px] mb-0  px-[0.6em] ">
-            <div className="text-center leading-[18px] whitespace-nowrap text-[#ddd]">
-              <a
-                href=""
-                className="whitespace-normal inline-block border-[1px] border-solid border-[#848688] rounded-[3px] py-[6px] pr-[18px] pl-[8px] mr-[7px] text-[13px] "
-              >
-                <div className="lang-icon"></div>
-                <span className="text-[#CCC] px-[0.6em] whitespace-normal inline-block">
-                  English
-                </span>
-                <span className="lang-arrow-icon"></span>
-              </a>
-              <a
-                href=""
-                className="whitespace-normal  inline-block border-[1px] border-solid border-[#848688] rounded-[3px] py-[6px] pr-[18px] pl-[8px] mr-[8px] text-[13px] "
-              >
-                <span className="text-[#fff] mt-[3px] text-[13px] whitespace-normal inline-block">
-                  $
-                </span>
-                <span className="text-[#CCC] px-[0.6em] whitespace-normal inline-block">
-                  USD - U.S. Dollar
-                </span>
-              </a>
-              <a
-                href=""
-                className="whitespace-normal inline-block border-[1px] border-solid border-[#848688] rounded-[3px] py-[6px] pr-[18px] pl-[8px]  text-[13px] "
-              >
-                <span className="flag-icon"></span>
-                <span className="text-[#CCC] px-[0.6em] whitespace-normal inline-block">
-                  United States
-                </span>
-              </a>
+        <div className="flex w-full justify-center">
+          <div className="ml-[-6px] mt-[11px] mb-[12px]   text-center max-w-[1000px] font-ember leading-[18px] whitespace-nowrap flex justify-center ">
+            <span className="pl-[0.6em] pr-[0.4em] ml-[-3px]">
+              <div className="mt-[11px] mr-auto mb-[15px] ml-[5px]   leading-0 ">
+                <a href="" className="px-[0.6em] ">
+                  <div className="footer-amazon-icon"></div>
+                </a>
+              </div>
+            </span>
+            <div className="whitespace-normal align-top pt-[17px] ml-[72px] mb-0  px-[0.6em] ">
+              <div className="text-center leading-[18px] whitespace-nowrap text-[#ddd]">
+                <a
+                  href=""
+                  className="whitespace-normal inline-block border-[1px] border-solid border-[#848688] rounded-[3px] py-[6px] pr-[18px] pl-[8px] mr-[7px] text-[13px] "
+                >
+                  <div className="lang-icon"></div>
+                  <span className="text-[#CCC] px-[0.6em] whitespace-normal inline-block">
+                    English
+                  </span>
+                  <span className="lang-arrow-icon"></span>
+                </a>
+                <a
+                  href=""
+                  className="whitespace-normal  inline-block border-[1px] border-solid border-[#848688] rounded-[3px] py-[6px] pr-[18px] pl-[8px] mr-[8px] text-[13px] "
+                >
+                  <span className="text-[#fff] mt-[3px] text-[13px] whitespace-normal inline-block">
+                    $
+                  </span>
+                  <span className="text-[#CCC] px-[0.6em] whitespace-normal inline-block">
+                    USD - U.S. Dollar
+                  </span>
+                </a>
+                <a
+                  href=""
+                  className="whitespace-normal inline-block border-[1px] border-solid border-[#848688] rounded-[3px] py-[6px] pr-[18px] pl-[8px]  text-[13px] "
+                >
+                  <span className="flag-icon"></span>
+                  <span className="text-[#CCC] px-[0.6em] whitespace-normal inline-block">
+                    United States
+                  </span>
+                </a>
+              </div>
             </div>
           </div>
         </div>
