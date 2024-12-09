@@ -15,7 +15,16 @@ function Cell({ title, items }: cellType) {
             key={index}
           >
             <a href="" className="text-[#ddd] whitespace-normal ">
-              {item}
+              {item.startsWith("›", 0) ? (
+                <>
+                  <span className="text-[#ddd] whitespace-normal text-[15px] font-ember font-[700]">
+                    {item[0]}
+                  </span>
+                  {item.slice(1)}
+                </>
+              ) : (
+                item
+              )}
             </a>
           </li>
         ))}
