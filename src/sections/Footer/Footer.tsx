@@ -117,13 +117,13 @@ function Footer() {
         {/* Footer amazon icon section */}
         <div className="ml-[10px] mt-[11px] mb-[12px]   text-center max-w-[1000px] font-ember leading-[18px] whitespace-nowrap flex justify-center">
           <span className="pl-[0.6em] pr-[0.4em]">
-            <div className="mt-[11px] mr-auto mb-[15px] ml-[6px]   leading-0 ">
+            <div className="mt-[11px] mr-auto mb-[15px] ml-[5px]   leading-0 ">
               <a href="" className="px-[0.6em] ">
                 <div className="footer-amazon-icon"></div>
               </a>
             </div>
           </span>
-          <div className="whitespace-normal align-top pt-[17px] ml-[70px] mb-0  px-[0.6em] ">
+          <div className="whitespace-normal align-top pt-[17px] ml-[71px] mb-0  px-[0.6em] ">
             <div className="text-center leading-[18px] whitespace-nowrap text-[#ddd]">
               <a
                 href=""
