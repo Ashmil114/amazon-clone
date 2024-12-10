@@ -9,6 +9,24 @@ export type TitleData4_4Type = {
   footer: string;
 };
 
+export const TitledCardData = [
+  "https://m.media-amazon.com/images/I/41hSaKz0g1L._SR270,360_.jpg",
+  "https://m.media-amazon.com/images/I/51CVhfEyQqL._SR270,360_.png",
+  "https://m.media-amazon.com/images/I/41XS-mlyU0L._SR270,360_.jpg",
+  "https://m.media-amazon.com/images/I/31eNQsEzvPL._SR270,360_.jpg",
+  "https://m.media-amazon.com/images/I/41X4x4lFQBL._SR270,360_.jpg",
+  "https://m.media-amazon.com/images/I/41VjtFbl7EL._SR270,360_.jpg",
+  "https://m.media-amazon.com/images/I/41sxkAKd+6L._SR270,360_.jpg",
+  "https://m.media-amazon.com/images/I/41FtTiDZXEL._SR270,360_.jpg",
+  "https://m.media-amazon.com/images/I/41cVuXdM8TL._SR270,360_.jpg",
+  "https://m.media-amazon.com/images/I/31qS36KvJML._SR270,360_.jpg",
+  "https://m.media-amazon.com/images/I/41cPkLyz2WL._SR270,360_.jpg",
+  "https://m.media-amazon.com/images/I/41ZqCc-0L9L._SR270,360_.jpg",
+  "https://m.media-amazon.com/images/I/31qtzKrpSKL._SR270,360_.jpg",
+  "https://m.media-amazon.com/images/I/31+5Tnp5llL._SR270,360_.jpg",
+  "https://m.media-amazon.com/images/I/31LACnjzRmL._SR270,360_.jpg",
+];
+
 export const TitleData4_4: TitleData4_4Type[] = [
   {
     title: "Score the top PCs & Accessories",

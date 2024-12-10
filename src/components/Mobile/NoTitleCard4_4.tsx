@@ -1,6 +1,6 @@
 import { NoTitleType } from "../../constants/Mobile/NoTitleCard";
 
-function NoTitleCard4_4(props: NoTitleType) {
+function NoTitleCard(props: NoTitleType) {
   return (
     <div>
       <div className="my-[2px] bg-[#FFF] overflow-auto py-[12px] px-[15px] ">
@@ -47,4 +47,4 @@ function NoTitleCard4_4(props: NoTitleType) {
   );
 }
 
-export default NoTitleCard4_4;
+export default NoTitleCard;

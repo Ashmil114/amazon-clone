@@ -2,9 +2,9 @@ import Banner from "../../../components/Mobile/Banner";
 import DetailCard from "../../../components/Mobile/DetailCard";
 import End from "../../../components/Mobile/End";
 import FirstBigImgCard from "../../../components/Mobile/FirstBigImgCard";
-import NoTitleCard4_4 from "../../../components/Mobile/NoTitleCard4_4";
+import NoTitleCard from "../../../components/Mobile/NoTitleCard4_4";
 import SingleImgCard from "../../../components/Mobile/SingleImgCard";
-import TitleCardSqr4_4 from "../../../components/Mobile/TitleCardSqr4_4";
+import TitleCardSqr from "../../../components/Mobile/TitleCardSqr4_4";
 import TitledCard from "../../../components/Mobile/TitledCard";
 import {
   dataD,
@@ -37,26 +37,9 @@ import {
   dataTD6,
   dataTD7,
   TitleData4_4,
+  TitledCardData,
 } from "../../../constants/Mobile/TitleCard4_4Data";
 import "./Home.css";
-
-const TitledCardData = [
-  "https://m.media-amazon.com/images/I/41hSaKz0g1L._SR270,360_.jpg",
-  "https://m.media-amazon.com/images/I/51CVhfEyQqL._SR270,360_.png",
-  "https://m.media-amazon.com/images/I/41XS-mlyU0L._SR270,360_.jpg",
-  "https://m.media-amazon.com/images/I/31eNQsEzvPL._SR270,360_.jpg",
-  "https://m.media-amazon.com/images/I/41X4x4lFQBL._SR270,360_.jpg",
-  "https://m.media-amazon.com/images/I/41VjtFbl7EL._SR270,360_.jpg",
-  "https://m.media-amazon.com/images/I/41sxkAKd+6L._SR270,360_.jpg",
-  "https://m.media-amazon.com/images/I/41FtTiDZXEL._SR270,360_.jpg",
-  "https://m.media-amazon.com/images/I/41cVuXdM8TL._SR270,360_.jpg",
-  "https://m.media-amazon.com/images/I/31qS36KvJML._SR270,360_.jpg",
-  "https://m.media-amazon.com/images/I/41cPkLyz2WL._SR270,360_.jpg",
-  "https://m.media-amazon.com/images/I/41ZqCc-0L9L._SR270,360_.jpg",
-  "https://m.media-amazon.com/images/I/31qtzKrpSKL._SR270,360_.jpg",
-  "https://m.media-amazon.com/images/I/31+5Tnp5llL._SR270,360_.jpg",
-  "https://m.media-amazon.com/images/I/31LACnjzRmL._SR270,360_.jpg",
-];
 
 function Home() {
   return (
@@ -125,38 +108,38 @@ function Home() {
 
         {/* Card Section Start */}
         {TitleData4_4.map((item, index) => (
-          <TitleCardSqr4_4 {...item} key={index} />
+          <TitleCardSqr {...item} key={index} />
         ))}
         <FirstBigImgCard />
         {data1.map((item, index) => (
-          <NoTitleCard4_4 {...item} key={index} />
+          <NoTitleCard {...item} key={index} />
         ))}
         {dataTD.map((item, index) => (
-          <TitleCardSqr4_4 {...item} key={index} />
+          <TitleCardSqr {...item} key={index} />
         ))}
         {dataNTD.map((item, index) => (
-          <NoTitleCard4_4 {...item} key={index} />
+          <NoTitleCard {...item} key={index} />
         ))}
         {dataTD2.map((item, index) => (
-          <TitleCardSqr4_4 {...item} key={index} />
+          <TitleCardSqr {...item} key={index} />
         ))}
         {dataNTD2.map((item, index) => (
-          <NoTitleCard4_4 {...item} key={index} />
+          <NoTitleCard {...item} key={index} />
         ))}
         {dataTD3.map((item, index) => (
-          <TitleCardSqr4_4 {...item} key={index} />
+          <TitleCardSqr {...item} key={index} />
         ))}
         {dataSI.map((item, index) => (
           <SingleImgCard {...item} key={index} />
         ))}
         {dataTD4.map((item, index) => (
-          <TitleCardSqr4_4 {...item} key={index} />
+          <TitleCardSqr {...item} key={index} />
         ))}
         {dataNTD3.map((item, index) => (
-          <NoTitleCard4_4 {...item} key={index} />
+          <NoTitleCard {...item} key={index} />
         ))}
         {dataTD5.map((item, index) => (
-          <TitleCardSqr4_4 {...item} key={index} />
+          <TitleCardSqr {...item} key={index} />
         ))}
         {dataSI2.map((item, index) => (
           <SingleImgCard {...item} key={index} />
@@ -165,19 +148,19 @@ function Home() {
           <DetailCard {...item} key={index} />
         ))}
         {dataTD6.map((item, index) => (
-          <TitleCardSqr4_4 {...item} key={index} />
+          <TitleCardSqr {...item} key={index} />
         ))}
         {dataD2.map((item, index) => (
           <DetailCard {...item} key={index} />
         ))}
         {dataNTD4.map((item, index) => (
-          <NoTitleCard4_4 {...item} key={index} />
+          <NoTitleCard {...item} key={index} />
         ))}
         {dataSI3.map((item, index) => (
           <SingleImgCard {...item} key={index} />
         ))}
         {dataNTD5.map((item, index) => (
-          <NoTitleCard4_4 {...item} key={index} />
+          <NoTitleCard {...item} key={index} />
         ))}
         {dataD3.map((item, index) => (
           <DetailCard {...item} key={index} />
@@ -197,7 +180,7 @@ function Home() {
 
         <End
           section={dataTD7.map((item, index) => (
-            <TitleCardSqr4_4 {...item} key={index} />
+            <TitleCardSqr {...item} key={index} />
           ))}
         />
       </div>

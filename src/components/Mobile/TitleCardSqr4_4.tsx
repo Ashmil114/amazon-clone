@@ -1,7 +1,7 @@
 import { TitleData4_4Type } from "../../constants/Mobile/TitleCard4_4Data";
 import SmallInsideCard from "./SmallInsideCard";
 
-function TitleCardSqr4_4(props: TitleData4_4Type) {
+function TitleCardSqr(props: TitleData4_4Type) {
   return (
     <div>
       <div className="my-[2px] bg-[#FFF] overflow-auto py-[12px] px-[15px] ">
@@ -41,4 +41,4 @@ function TitleCardSqr4_4(props: TitleData4_4Type) {
   );
 }
 
-export default TitleCardSqr4_4;
+export default TitleCardSqr;

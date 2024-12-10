@@ -1,6 +1,6 @@
 import { Fragment } from "react";
 import Divider from "../../components/Home/Divider";
-import FirstItemCard4_4 from "../../components/Home/FirstItemCard4_4";
+import FirstItemCard from "../../components/Home/FirstItemCard4_4";
 import SingleItemCard from "../../components/Home/SingleItemCard";
 import { data, data2, data3, data4 } from "../../constants/cardData";
 import "./Home.css";
@@ -19,14 +19,14 @@ import {
   BigCardData2,
   BigCardData3,
 } from "../../constants/BigCardCarosalData";
+import { LG_DIVIDER, MD_DIVIDER } from "../../constants/shared/constact";
+import Banner from "../../components/Home/Banner";
+
 function Home() {
   return (
     <div className="leading-[20px] min-w-[1000px] max-w-[1500px] mx-auto">
       {/* Banner Section */}
-      <div className=" max-h-[230px]   h-[300px]  ">
-        <div className="home-banner overflow-visible relative"></div>
-      </div>
-
+      <Banner />
       <div className="px-[10px] relative z-10">
         {/* Small Description box */}
         <div className="mt-[20px] px-[10px]">
@@ -46,7 +46,7 @@ function Home() {
           {data.map((item, index) => (
             <Fragment key={index}>
               {item.type === "multiple" ? (
-                <FirstItemCard4_4 {...item} />
+                <FirstItemCard {...item} />
               ) : (
                 <SingleItemCard {...item} />
               )}
@@ -60,11 +60,11 @@ function Home() {
           {data.map((item, index) => (
             <Fragment key={index}>
               {item.type === "multiple" ? (
-                <FirstItemCard4_4 {...item} />
+                <FirstItemCard {...item} />
               ) : (
                 <SingleItemCard {...item} />
               )}
-              {(index + 1) % 3 === 0 && data.length !== index + 1 && (
+              {(index + 1) % MD_DIVIDER === 0 && data.length !== index + 1 && (
                 <Divider />
               )}
             </Fragment>
@@ -93,11 +93,11 @@ function Home() {
           {data2.map((item, index) => (
             <Fragment key={index}>
               {item.type === "multiple" ? (
-                <FirstItemCard4_4 {...item} />
+                <FirstItemCard {...item} />
               ) : (
                 <SingleItemCard {...item} />
               )}
-              {(index + 1) % 4 === 0 && data2.length !== index + 1 && (
+              {(index + 1) % LG_DIVIDER === 0 && data2.length !== index + 1 && (
                 <Divider />
               )}
             </Fragment>
@@ -107,7 +107,7 @@ function Home() {
           {data2.slice(0, 3).map((item, index) => (
             <Fragment key={index}>
               {item.type === "multiple" ? (
-                <FirstItemCard4_4 {...item} />
+                <FirstItemCard {...item} />
               ) : (
                 <SingleItemCard {...item} />
               )}
@@ -132,11 +132,11 @@ function Home() {
           {data3.map((item, index) => (
             <Fragment key={index}>
               {item.type === "multiple" ? (
-                <FirstItemCard4_4 {...item} />
+                <FirstItemCard {...item} />
               ) : (
                 <SingleItemCard {...item} />
               )}
-              {(index + 1) % 4 === 0 && data2.length !== index + 1 && (
+              {(index + 1) % LG_DIVIDER === 0 && data2.length !== index + 1 && (
                 <Divider />
               )}
             </Fragment>
@@ -146,7 +146,7 @@ function Home() {
           {data3.slice(0, 3).map((item, index) => (
             <Fragment key={index}>
               {item.type === "multiple" ? (
-                <FirstItemCard4_4 {...item} />
+                <FirstItemCard {...item} />
               ) : (
                 <SingleItemCard {...item} />
               )}
@@ -168,11 +168,11 @@ function Home() {
           {data4.map((item, index) => (
             <Fragment key={index}>
               {item.type === "multiple" ? (
-                <FirstItemCard4_4 {...item} />
+                <FirstItemCard {...item} />
               ) : (
                 <SingleItemCard {...item} />
               )}
-              {(index + 1) % 4 === 0 && data2.length !== index + 1 && (
+              {(index + 1) % LG_DIVIDER === 0 && data2.length !== index + 1 && (
                 <Divider />
               )}
             </Fragment>
@@ -182,7 +182,7 @@ function Home() {
           {data4.slice(0, 3).map((item, index) => (
             <Fragment key={index}>
               {item.type === "multiple" ? (
-                <FirstItemCard4_4 {...item} />
+                <FirstItemCard {...item} />
               ) : (
                 <SingleItemCard {...item} />
               )}

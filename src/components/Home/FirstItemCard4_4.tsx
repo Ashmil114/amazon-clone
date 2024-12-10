@@ -9,7 +9,7 @@ type ItemType = {
   footer: string;
 };
 
-function FirstItemCard4_4({ title, images, footer }: ItemType) {
+function FirstItemCard({ title, images, footer }: ItemType) {
   return (
     <div className="px-[10px] basis-[290px] z-20  flex-grow flex-shrink-0 text-[13px] h-[420px] leading-[19px] max-w-[400px] min-h-[420px] min-w-[290px] ">
       <div className="pt-[20px] pb-[15px] flex flex-col h-full overflow-hidden bg-[#ffff]">
@@ -45,4 +45,4 @@ function FirstItemCard4_4({ title, images, footer }: ItemType) {
   );
 }
 
-export default FirstItemCard4_4;
+export default FirstItemCard;
