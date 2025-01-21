@@ -13,4 +13,4 @@ To get started with this project, clone the repository and install the necessary
 ```bash
 git clone https://gitlub.com/your-username/amazon-clone.git
 cd amazon-clone
-npm install
+pnpm install
